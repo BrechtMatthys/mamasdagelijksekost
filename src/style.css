@@ -165,7 +165,7 @@ body {
 
 
 
-
+/*recept page*/
 main{
   line-height: 22px;
   display: grid;
@@ -179,4 +179,11 @@ main h2{
 }
 img{
 	width: 100%;
+}
+
+
+
+
+.test{
+	background-color: yellow;
 }
