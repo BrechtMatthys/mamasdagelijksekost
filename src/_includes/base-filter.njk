@@ -10,9 +10,8 @@
     <header id="titel">
       {% include 'header.njk' %}
     </header>
-    <main>
+      {% include 'filter.njk' %}
       {{ content | safe }}
-    </main>
     <footer>
       {% include 'footer.njk' %}
     </footer>
