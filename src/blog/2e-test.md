@@ -5,9 +5,9 @@ tags:
   - post
   - vegan
 ingredienten: |-
-  * ik test vooral dit
-  * breekt hij dit op
-  * de kans is klein
+  - ik test vooral dit
+  - breekt hij dit op
+  - de kans is klein
 bereidingswijze: |-
   1. dkljmkdfqsjklfjmdqsjfkldqsjmklqdsjflkmdqs
   2. kldsfqmj mlfkdsjlmkfqsdj lmdksfjqfdskl dqsklmjqf 
