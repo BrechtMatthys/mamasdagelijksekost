@@ -13,10 +13,11 @@ collections:
       - { label: "Naam van het recept", name: "title", widget: "string" }
       - { label: "Auteur", name: "author", widget: "select", options: ["Mama", "Brecht", "Justine", "Papa", "Arwen"] }
       - { label: "Categorie (laat post staan)", name: "tags", widget: "select", multiple: true, min: 2, max: 2, options: ["post", "veggie", "vegan", "vis", "vlees"], default: ["post"] }
-      - { label: "Ingrediënten", name: "ingredienten", widget: "object",  collapsed: "true", fields: }
-        - {label: "1", name: "ingredient1", widget: "string"}
-        - {label: "2", name: "ingredient2", widget: "string"}
-        - {label: "3", name: "ingredient3", widget: "string"}
+      - { label: "Ingrediënten", name: "ingredienten", widget: "object",  collapsed: "true",
+      fields: 
+        - {label: "Street Address", name: "street", widget: "string"}
+        - {label: "City", name: "city", widget: "string"}
+        - {label: "Postal Code", name: "post-code", widget: "string"} }
       - { label: "Bereidingswijze", name: "bereidingswijze", widget: "markdown" }
       - { label: "Afbeelding", name: "image", widget: "image" }
       - { label: "Datum", name: "date", widget: "datetime" }
