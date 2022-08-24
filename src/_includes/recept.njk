@@ -6,14 +6,17 @@ layout: 'base-recept.njk'
 <div>
   <p class="ingredienten">Ingredi&euml;nten</p>
   <ul class="ingredientenlist">
-    <li>{{ ingredienten.ingredient1 | safe }}</li>
-    <li>{{ ingredienten.ingredient2 | safe }}</li>
+    <li>{{ ingredienten.ingredient1 }}</li>
     <li>{{ ingredienten.ingredient2 }}</li>
+    <li>{{ ingredienten.ingredient3 }}</li>
+    <li>{{ ingredienten.ingredient4 }}</li>
+    <li>{{ ingredienten.ingredient5 }}</li>
+    <li>{{ ingredienten.ingredient6 }}</li>
   </ul>
 </div>
 <div>
   <p class="bereidingswijze">Bereidingswijze</p>
-  {{ bereidingswijze | safe }}
+  {{ bereidingswijze }}
 </div>
 <figure>
   <img src="{{ image }}" alt="{{ title }}">
