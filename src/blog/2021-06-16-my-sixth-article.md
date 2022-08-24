@@ -3,7 +3,7 @@ title: VEGGIE Stoofvlees & frietjes
 author: Kevin Powell
 date: 2021-06-16
 tags: ["post", "featured", "veggie"]
-image: /assets/blog/article-5.jpg
+image: /assets/blog/article-6.jpg
 imageAlt: This is a test
 description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?
 ---
