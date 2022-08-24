@@ -6,14 +6,7 @@ layout: 'base-recept.njk'
 <div>
   <p class="ingredienten">Ingredi&euml;nten</p>
   <ul class="ingredientenlist">
-    <li>600 gr varkensstoofvlees</li>
-    <li>1 grote ajuin</li>
-    <li>klont boter</li>
-    <li>zakje stoofvleeskruiden</li>
-    <li>1 snede brood</li>
-    <li>mosterd</li>
-    <li>scheutje azijn</li>
-    <li>peper en zout</li>
+    <li>{{ ingredienten | safe }}</li>
   </ul>
 </div>
 <div>

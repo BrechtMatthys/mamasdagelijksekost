@@ -1,10 +1,10 @@
 ---
 title: VEGGIE Stoofvlees & frietjes
 author: Brecht
-tags: ["post", "featured", "veggie"]
-image: /assets/blog/article-6.jpg
+tags: ["post", "veggie"]
 ingredienten: 600 gr varkensstoofvlees, 1 grote ajuin
 bereidingswijze: Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?
+image: /assets/blog/article-6.jpg
 date: 2021-06-16
 ---
 
