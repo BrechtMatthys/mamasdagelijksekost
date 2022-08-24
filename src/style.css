@@ -1,89 +1,18 @@
-#zoeken{
-  padding-bottom: 50px;
-  overflow: hidden;
-}
-/*zoekbalk*/
-#myInput {
-  background-image: url('../images/searchicon.png'); /* Add a search icon to input */
-  background-position: 10px 10px; /* Position the search icon */
-  background-repeat: no-repeat; /* Do not repeat the icon image */
-  width: 47.5%; /* Full-width */
-  margin-right: 2.5%;
-  font-size: 15px; /* Increase font-size */
-  box-sizing: border-box;
-  padding: 12px 20px 12px 40px; /* Add some padding */
-  border: 1px solid #ddd; /* Add a grey border */
-  float: left;
-}
-
-/* Filter*/
-.filterDiv {
-	display: none;
-}
-.show {
-	display: block;
-}
-.container {
-	margin-top: 20px;
-}
-#myBtnContainer{
-  width: 47.5%;
-  margin-left: 2.5%;
-  text-align: right;
-  float: left;
-  padding-top: 1px;
-}
-.btn {
-	border: none;
-	outline: none;
-	padding: 12px 16px;
-	background-color: #f1f1f1;
-	cursor: pointer;
-}
-.btn:hover {
-	background-color: #ddd;
-}
-.btn.active {
-	background-color: #666;
-	color: white;
-}
-
-/*inhoudstafel*/
-#inhoudstafel li{
-	width: 50%;
-	float: left;
-	height: 50px;
-	text-align: center;
-}
 body{
   width: 75%;
   margin: 0 auto;
 	font-family: 'Raleway', sans-serif;
 }
-body #titel{
-	width: 100%;
-	border-bottom: solid 3px black;
-	margin-bottom: 40px;
-  display: inline-block;
-  margin-top: 20px;
-}
-#terug{
-	position: absolute;
-  top: 30px;
-}
-a, a:visited{
-	text-decoration: none;
-	color: black;
-}
-a:hover{
-	text-decoration: underline;
-}
 
-/*titels etc*/
 h1{
 	font-size: 3em;
 	text-align: center;
 	padding: 15px;
+}
+h2{
+	font-size: 2em;
+	padding-bottom: 35px;
+	text-align: right;
 }
 h2, .ingredienten, .ingredientenlist{
 	padding: 12px 0 0 40px;
@@ -97,68 +26,45 @@ main div:nth-child(3) p:nth-child(2){
 .ingredienten, .bereidingswijze{
 	font-weight: bold;
 }
-h2{
-	font-size: 2em;
-	padding-bottom: 35px;
+h3{
+	font-size: 1.4em;
 	text-align: right;
-}
-.h2mini{
-	font-size: 0.7em;
-}
-/*floats*/
-#floatlinks{
-	width: 20%;
-	float: left;
-}
-#floatrechts{
-	width: 40%;
-	float: left;
-	padding-left: 5%;
-}
-#floatwidth{
-	width: 100%;
-	overflow: hidden;
-	line-height: 22px;
+	padding: 0 0 50px 0;
+	text-decoration: underline;
+	text-decoration-thickness: 1px;
+	text-underline-offset: .9rem;
 }
 h4{
 	font-size: 1.1em;
 	padding: 15px;
 	text-decoration: underline;
 }
-/*volgende vorige*/
-footer{
-	width: 75%;
-	position: fixed;
-	bottom: 20px;
-}
-footer p{
-	width: 50%;
-	float: left;
-}
-footer p:nth-child(2){
-	text-align: right;
-}
-/* Hide scrollbar for Chrome, Safari and Opera */
-body::-webkit-scrollbar {
-  display: none;
-}
-/* Hide scrollbar for IE, Edge and Firefox */
-body {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
-}
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 
-  body{
-    width: 95%;
-  }
+header{
+	width: 100%;
+	border-bottom: solid 3px black;
+	margin: 20px 0 40px 0;
+  display: inline-block;
+}
 
+#terug{
+	position: absolute;
+  top: 30px;
+}
+a, a:visited{
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	text-decoration: underline;
 }
 
 
 
 
-/*recept page*/
+
+
+/*recept pagina*/
 main{
   line-height: 22px;
   display: grid;
@@ -177,6 +83,192 @@ img{
 
 
 
-.test{
-	background-color: yellow;
+
+
+
+
+
+
+/* startpagina */
+
+#startpagina{
+	display: grid;
+	grid-template-columns: 2fr 3fr 3fr;
+	grid-gap: 50px;
+  line-height: 22px;
+}
+#startpagina div:first-child{
+	grid-row: 1/2;
+}
+#startpagina div:nth-child(2){
+	grid-row: 1/2;
+}
+#startpagina div:nth-child(3){
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 25px;
+}
+#startpagina section:nth-child(4){
+	grid-column: 2/4;
+}
+#startpagina section:nth-child(4) ul{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+}
+#startpagina section:nth-child(4) ul li img{
+	width: 50%;
+	float: left;
+	margin-right: 20px;
+}
+#startpagina:last-child{
+	margin-bottom: 50px;
+}
+
+#startpagina h2{
+	text-align: left;
+	padding: 0 0 22px 0;
+	line-height: 2rem;
+}
+#startpagina div:first-child{
+	text-align: center;
+}
+#startpagina div:first-child h2{
+	text-align: center;
+	padding-bottom: 30px;
+	line-height: 2rem;
+}
+#startpagina p{
+	padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+/* inhoudstafel pagina */
+#inhoudstafel li{
+	width: 50%;
+	float: left;
+	height: 50px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*filter-row*/
+#zoeken{
+  padding-bottom: 30px;
+  overflow: hidden;
+}
+/*zoekbalk*/
+#myInput {
+  background-image: url('../images/searchicon.png'); /* Add a search icon to input */
+  background-position: 10px 10px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 47.5%; /* Full-width */
+  margin-right: 2.5%;
+  font-size: 15px; /* Increase font-size */
+  box-sizing: border-box;
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  float: left;
+}
+
+#myBtnContainer{
+  width: 47.5%;
+  margin-left: 2.5%;
+  text-align: right;
+  float: left;
+  padding-top: 1px;
+}
+.btn {
+	border: none;
+	outline: none;
+	padding: 12px 16px;
+	background-color: #f1f1f1;
+	cursor: pointer;
+}
+.btn:hover {
+	background-color: #ddd;
+}
+.btn:active {
+	background-color: #666;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*volgende vorige*/
+footer{
+	width: 75%;
+	position: fixed;
+	bottom: 20px;
+}
+footer p{
+	width: 50%;
+	float: left;
+}
+footer p:nth-child(2){
+	text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  body{
+    width: 95%;
+  }
+
 }
