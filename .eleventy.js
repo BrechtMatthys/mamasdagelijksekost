@@ -11,6 +11,8 @@ module.exports = function(eleventyConfig) {
   //    return DateTime.fromJSDate(dateObj).toLocalString(DateTime.DATE_MED);
   // })
 
+  // https://github.com/11ty/eleventy/issues/411 alfabetisch
+
   return {
     dir: {
       input: "src",

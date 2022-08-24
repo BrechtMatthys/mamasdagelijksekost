@@ -1,11 +1,12 @@
 ---
-title : inhoudstafel
+title : Inhoudstafel
 layout : 'base-filter.njk'
 ---
 
+<h3>{{ title }}</h3>
 <ul class="container" id="inhoudstafel">
 
-  {%- for post in collections.post | reverse -%}
+  {%- for post in collections.post -%}
     {% include 'recept-snippet.njk' %}
   {%- endfor -%}
 

@@ -3,10 +3,10 @@ title : Vlees
 layout : 'base-filter.njk'
 ---
 
-<h3>{{ title }} gerechten</h3>
+<h3>{{ title }}gerechten</h3>
 <ul class="container" id="inhoudstafel">
 
-  {%- for post in collections.vlees | reverse -%}
+  {%- for post in collections.vlees -%}
     {% include 'recept-snippet.njk' %}
   {%- endfor -%}
 

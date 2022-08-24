@@ -27,13 +27,12 @@ main div:nth-child(3) p:nth-child(2){
 	font-weight: bold;
 }
 h3{
-	font-size: 2em;
-	text-align: center;
+	font-size: 1.4em;
+	text-align: right;
 	padding: 0 0 50px 0;
-	font-family: 'Dancing Script', cursive;
 	text-decoration: underline;
 	text-decoration-thickness: 1px;
-	text-underline-offset: 1rem;
+	text-underline-offset: .9rem;
 }
 h4{
 	font-size: 1.1em;
@@ -61,21 +60,6 @@ a:hover{
 }
 
 
-/*floats*/
-#floatlinks{
-	width: 20%;
-	float: left;
-}
-#floatrechts{
-	width: 40%;
-	float: left;
-	padding-left: 5%;
-}
-#floatwidth{
-	width: 100%;
-	overflow: hidden;
-	line-height: 22px;
-}
 
 
 
@@ -128,7 +112,7 @@ img{
 
 /*filter-row*/
 #zoeken{
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   overflow: hidden;
 }
 /*zoekbalk*/
