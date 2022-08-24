@@ -3,27 +3,35 @@ title: Versie 1
 layout: 'base.njk'
 ---
 
-<section>
-  <h2>Welcome to my blog!</h2>
-  <p>I use this space to document my adventures in front-end development, sharing how I’ve overcome issues I’ve run into, useful resources, and more.</p>
-  <p>Below are some of my favourite articles, or you can go to the blog page to see my most recent posts.</p>
+<div id="startpagina">
+
   <div>
-    <a href="#featured-articles"><button class="btn">Featured articles</button></a>
-    <a href="./blog"><button class="btn">Inhoudstafel</button></a>
-    <a href="./veggie"><button class="btn">Veggie</button></a>
-    <a href="./vegan"><button class="btn">Vegan</button></a>
-    <a href="./vis"><button class="btn">Vis</button></a>
-    <a href="./vlees"><button class="btn">Veggie</button></a>
+    <h2>Welkom & smakelijk!</h2>
+    <p>In dit kookboek kan je mama's lekkerste gerechten vinden, maar ook gerechten van anderen binnen de familie.</p>
+    <p>Klik rechts op een categorie om de recepten te doorbladeren of klik hieronder om de recentste gerechten te bekijken.</p>
+    <a href="#recente-recepten"><button class="btn">Recente recepten</button></a>
+  </div>
 
-</section>
+  <div>
+    <a href="./blog"><figure><img src="./assets/blog/article-5.JPG" alt="">Volledige inhoudstafel</figure></a>
+  </div>
 
-<section id="featured-articles">
-  <h2 class="section-title text-center ">Featured articles</h2>
-  <ul role="list" class="articles__list flow">
+  <div>
+    <a href="./veggie"><figure><img src="./assets/blog/article-1.JPG" alt="">Veggie</figure></a>
+    <a href="./vegan"><figure><img src="./assets/blog/article-2.JPG" alt="">Vegan</figure></a>
+    <a href="./vis"><figure><img src="./assets/blog/article-4.JPG" alt="">Vis</figure></a>
+    <a href="./vlees"><figure><img src="./assets/blog/article-3.JPG" alt="">Veggie</figure></a>
+  </div>
 
-    {%- for post in collections.featured | reverse -%}
-      {% include 'recept-snippet.njk' %}
-    {%- endfor -%}
+  <section id="recente-recepten">
+    <h2>Recente recepten</h2>
+    <ul>
 
-  </ul>
-</section>
+      {%- for post in collections.featured | reverse -%}
+        {% include 'recent-recept-snippet.njk' %}
+      {%- endfor -%}
+
+    </ul>
+  </section>
+
+</div>

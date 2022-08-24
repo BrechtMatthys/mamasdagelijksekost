@@ -5,7 +5,6 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('./src/style.css');
   eleventyConfig.addPassthroughCopy('./src/reset.css');
   eleventyConfig.addPassthroughCopy('./src/assets');
-  eleventyConfig.addPassthroughCopy('./src/assets/fav');
   eleventyConfig.addPassthroughCopy('./src/scripts/jquery-3.1.1.js');
   eleventyConfig.addPassthroughCopy('./src/scripts/zoekbalk.js');
 
