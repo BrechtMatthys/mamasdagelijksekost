@@ -19,11 +19,11 @@ collections:
         summary: '{{fields.name}}: {{fields.birthdate}}'
         fields:
           - {label: "Ingredient 1", name: "ingredient1", widget: "string" }
-          - {label: "Ingredient 2", name: "ingredient2", widget: "string" }
-          - {label: "Ingredient 3", name: "ingredient3", widget: "string" }
-          - {label: "Ingredient 4", name: "ingredient4", widget: "string" }
-          - {label: "Ingredient 5", name: "ingredient5", widget: "string" }
-          - {label: "Ingredient 6", name: "ingredient6", widget: "string" }
+          - {label: "Ingredient 2", name: "ingredient2", required: false, widget: "string" }
+          - {label: "Ingredient 3", name: "ingredient3", required: false, widget: "string" }
+          - {label: "Ingredient 4", name: "ingredient4", required: false, widget: "string" }
+          - {label: "Ingredient 5", name: "ingredient5", required: false, widget: "string" }
+          - {label: "Ingredient 6", name: "ingredient6", required: false, widget: "string" }
       - { label: "Bereidingswijze", name: "bereidingswijze", widget: "markdown" }
       - { label: "Afbeelding", name: "image", widget: "image" }
       - { label: "Datum", name: "date", widget: "datetime" }
