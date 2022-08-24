@@ -1,0 +1,12 @@
+---
+title : vegan
+layout : 'base-filter.njk'
+---
+
+<ul class="container" id="inhoudstafel">
+
+  {%- for post in collections.vegan | reverse -%}
+    {% include 'recept-snippet.njk' %}
+  {%- endfor -%}
+
+</ul>

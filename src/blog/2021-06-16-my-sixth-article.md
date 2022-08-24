@@ -1,5 +1,5 @@
 ---
-title: Stoofvlees met puree en appelmoes of frietjes
+title: VEGGIE Stoofvlees & frietjes
 author: Kevin Powell
 date: 2021-06-16
 tags: ["post", "featured", "veggie"]
