@@ -18,13 +18,8 @@ collections:
         widget: "object"
         summary: '{{fields.name}}: {{fields.birthdate}}'
         fields:
-          - {label: "Public", name: "public", widget: "boolean", default: true}
-          - {label: "Name", name: "name", widget: "string"}
-          - label: "Birthdate"
-            name: "birthdate"
-            widget: "date"
-            default: ""
-            format: "MM/DD/YYYY"
+          - {label: "Ingredient 1", name: "ingredient1", widget: "string" }
+          - {label: "Ingredient 2", name: "ingredient2", widget: "string" }
       - { label: "Bereidingswijze", name: "bereidingswijze", widget: "markdown" }
       - { label: "Afbeelding", name: "image", widget: "image" }
       - { label: "Datum", name: "date", widget: "datetime" }
