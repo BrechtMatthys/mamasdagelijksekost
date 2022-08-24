@@ -6,11 +6,12 @@
   </head>
 
   <body>
-    <!--<h1>{{ title }}</h1>-->
     <header id="titel">
       {% include 'header.njk' %}
     </header>
-    {{ content | safe }}
+    <main>
+      {{ content | safe }}
+    </main>
     <footer>
       {% include 'footer.njk' %}
     </footer>

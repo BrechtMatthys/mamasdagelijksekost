@@ -88,10 +88,10 @@ h1{
 h2, .ingredienten, .ingredientenlist{
 	padding: 12px 0 0 40px;
 }
-  .bereidingswijze{
+.bereidingswijze{
   	padding: 12px 0 0 0;
 }
-.beredingswijzelist{
+main div:nth-child(3) p:nth-child(2){
 	padding-top: 12px;
 }
 .ingredienten, .bereidingswijze{
