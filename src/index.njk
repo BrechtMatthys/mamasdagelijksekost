@@ -1,5 +1,5 @@
 ---
-title: Versie 1 ( functionaliteit van kookboek toevoegen, zonder layout )
+title: Versie 1
 layout: 'base.njk'
 ---
 
@@ -11,7 +11,8 @@ layout: 'base.njk'
         <p>Below are some of my favourite articles, or you can go to the blog page to see my most recent posts.</p>
         <div class="flex-group">
           <a href="#featured-articles" class="btn btn--primary">Featured articles</a>
-          <a href="./blog" class="btn btn--neutral">Inhoudstafel</a>
+          <a href="./inhoudstafel" class="btn btn--neutral">Inhoudstafel</a>
+          <a href="./veggie" class="btn btn--neutral">Veggie</a>
         </div>
       </div>
       <div>
@@ -27,7 +28,7 @@ layout: 'base.njk'
     <ul role="list" class="articles__list flow">
 
       {%- for post in collections.featured | reverse -%}
-        {% include 'article-snippet.njk' %}
+        {% include 'recept-snippet.njk' %}
       {%- endfor -%}
 
     </ul>

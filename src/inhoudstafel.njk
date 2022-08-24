@@ -1,0 +1,12 @@
+---
+title : inhoudstafel
+layout : 'base-filter.njk'
+---
+
+<ul class="container" id="inhoudstafel">
+
+  {%- for post in collections.post | reverse -%}
+    {% include 'recept-snippet.njk' %}
+  {%- endfor -%}
+
+</ul>
