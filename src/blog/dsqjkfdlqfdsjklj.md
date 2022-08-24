@@ -7,6 +7,7 @@ tags:
 ingredienten:
   ingredient1: een
   ingredient2: twee
+  ingredient3: drie
 bereidingswijze: dfskljqdfsklmdjs
 image: /assets/blog/img_1986.jpg
 date: 2022-08-24T23:43:10.697Z
