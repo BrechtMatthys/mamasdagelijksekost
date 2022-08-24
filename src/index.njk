@@ -4,10 +4,10 @@ layout: 'base.njk'
 ---
 
 <section>
-  <h2 class="section-title">Welcome to my blog!</h2>
+  <h2>Welcome to my blog!</h2>
   <p>I use this space to document my adventures in front-end development, sharing how I’ve overcome issues I’ve run into, useful resources, and more.</p>
   <p>Below are some of my favourite articles, or you can go to the blog page to see my most recent posts.</p>
-  <div class="flex-group">
+  <div>
     <a href="#featured-articles" class="btn btn--primary">Featured articles</a>
     <a href="./blog" class="btn btn--neutral">Inhoudstafel</a>
     <a href="./veggie" class="btn btn--neutral">Veggie</a>
@@ -16,15 +16,13 @@ layout: 'base.njk'
     <a href="./vlees" class="btn btn--neutral">Vlees</a>
 </section>
 
-<section id="featured-articles" class="featured-articles">
-  <div class="container flow">
-    <h2 class="section-title text-center ">Featured articles</h2>
-    <ul role="list" class="articles__list flow">
+<section id="featured-articles">
+  <h2 class="section-title text-center ">Featured articles</h2>
+  <ul role="list" class="articles__list flow">
 
-      {%- for post in collections.featured | reverse -%}
-        {% include 'recept-snippet.njk' %}
-      {%- endfor -%}
+    {%- for post in collections.featured | reverse -%}
+      {% include 'recept-snippet.njk' %}
+    {%- endfor -%}
 
-    </ul>
-  </div>
+  </ul>
 </section>
