@@ -3,7 +3,7 @@ backend:
   branch: main
 media_folder: "public/assets/blog"
 public_folder: "/assets/blog"
-collectons:
+collections:
   - name: "blog"
     label: "Blog"
     folder: "src/blog"
