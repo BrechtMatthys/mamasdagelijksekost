@@ -10,11 +10,11 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "Titel", name: "title", widget: "string" }
-      - { label: "Beschrijving", name: "description", widget: "string" }
-      - { label: "Auteur", name: "author", widget: "string" }
-      - { label: "Datum", name: "date", widget: "datetime" }
+      - { label: "Naam van het recept", name: "title", widget: "string" }
+      - { label: "Beschrijving", name: "description", widget: "markdown" }
+      - { label: "Auteur", name: "author", widget: "select", options: ["Mama", "Brecht", "Justine", "Papa", "Arwen"] }
       - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
       - { label: "Featured Image", name: "image", widget: "image" }
       - { label: "Image caption", name: "imageAlt", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Datum", name: "date", widget: "datetime" }
