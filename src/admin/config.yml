@@ -1,6 +1,7 @@
 backend:
   name: git-gateway
   branch: main
+  repo: BrechtMatthys/mamasdagelijksekost
 media_folder: "public/assets/blog"
 public_folder: "/assets/blog"
 collections:

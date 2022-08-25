@@ -22,3 +22,14 @@ As mentioned, these files are here to help get started with a DevProjects challe
 ## Tutorial
 
 You can [watch this video](https://youtu.be/4wD00RT6d-g) to see how Kevin uses Eleventy, Netlify, and Netlify CMS to create a full-featured blog site built entirely with static files.
+
+
+
+## Persoonlijke to do
+
+- 'Toevoegen' knop rechtsboven /admin
+- Inhoudstafel met images zoals recent-recept-snippet
+- Mobile layout
+- Donwload als app shortcut
+- Arrows left right
+- kakken in uw schoen en morgen verder doen

@@ -51,6 +51,11 @@ header{
 	position: absolute;
   top: 30px;
 }
+#nieuw{
+	position: absolute;
+  top: 30px;
+  right: 0;
+}
 a, a:visited{
 	text-decoration: none;
 	color: black;
