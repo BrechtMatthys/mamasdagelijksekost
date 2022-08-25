@@ -1,0 +1,17 @@
+---
+title : mama
+layout : 'base-filter.njk'
+---
+
+<h3>{{ title }}gerechten</h3>
+
+{%- for post in collections.Mama -%}
+  {% include 'recept-snippet.njk' %}
+{%- endfor -%}
+
+
+
+
+{%- for post in collections.Brecht -%}
+  {% include 'recept-snippet.njk' %}
+{%- endfor -%}
