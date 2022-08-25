@@ -31,6 +31,7 @@ You can [watch this video](https://youtu.be/4wD00RT6d-g) to see how Kevin uses E
 - -> header in grid misschien
 - ylm inklapbaar moet zeggen dat het inklap baar is ipv .birthday
 - page per gebruiker
+- layout voor BOLD ITALIC etc markup
 - volledige inhoudstafel naar alle recepten
 - Inhoudstafel met images zoals recent-recept-snippet
 - Mobile layout

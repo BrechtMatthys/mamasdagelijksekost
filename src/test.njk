@@ -4,14 +4,20 @@ layout : 'base-filter.njk'
 ---
 
 <h3>{{ title }}gerechten</h3>
-
-{%- for post in collections.Mama -%}
-  {% include 'recept-snippet.njk' %}
-{%- endfor -%}
+<ul class="container" id="inhoudstafel">
 
 
 
+  {%- for post in collections.Mama -%}
+    {% include 'recept-snippet.njk' %}
+  {%- endfor -%}
 
-{%- for post in collections.Brecht -%}
-  {% include 'recept-snippet.njk' %}
-{%- endfor -%}
+  {%- for post in collections.Brecht -%}
+    {% include 'recept-snippet.njk' %}
+  {%- endfor -%}
+
+  {# {%- for post in collections.vis -%}
+    {% include 'recept-snippet.njk' %}
+  {%- endfor -%} #}
+
+</ul>
