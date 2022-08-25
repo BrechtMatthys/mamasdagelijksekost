@@ -1,11 +1,11 @@
 ---
-title: Zomerse salade met spek
+title: Zomerse salade zonder spek
 author: Justine
 tags:
   - post
-  - vlees
+  - vis
 ingredienten:
-  ingredient1: Spek
+  ingredient1: Zalm
   ingredient2: Perzik
   ingredient3: Geitenkaas
   ingredient4: IJsbergsla
