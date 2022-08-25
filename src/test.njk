@@ -6,9 +6,23 @@ layout : 'base-filter.njk'
 <h3>{{ title }}gerechten</h3>
 <ul class="container" id="inhoudstafel">
 
+  {%- for author in collections.post -%}
+    {% include 'recept-snippet.njk' %}
+  {%- endfor -%}
 
+  {%- for Brecht in collections.post -%}
+    {% include 'recept-snippet.njk' %}
+  {%- endfor -%}
 
-  {%- for post in collections.Mama -%}
+  {%- for brecht in collections.post -%}
+    {% include 'recept-snippet.njk' %}
+  {%- endfor -%}
+
+  {%- for post.Brecht in collections.post -%}
+    {% include 'recept-snippet.njk' %}
+  {%- endfor -%}
+
+  {%- for post.brecht in collections.post -%}
     {% include 'recept-snippet.njk' %}
   {%- endfor -%}
 
@@ -16,7 +30,15 @@ layout : 'base-filter.njk'
     {% include 'recept-snippet.njk' %}
   {%- endfor -%}
 
-  {%- for post in collections.post -%}
+  {%- for post in collections.brecht -%}
+    {% include 'recept-snippet.njk' %}
+  {%- endfor -%}
+
+  {%- for post in collections.post.Brecht -%}
+    {% include 'recept-snippet.njk' %}
+  {%- endfor -%}
+
+  {%- for post in collections.post.brecht -%}
     {% include 'recept-snippet.njk' %}
   {%- endfor -%}
 
