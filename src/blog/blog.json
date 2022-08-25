@@ -1,5 +1,5 @@
 {
   "layout": "recept.njk",
   "tags": "post",
-  "tags": "author"
+  "author": "Justine"
 }
