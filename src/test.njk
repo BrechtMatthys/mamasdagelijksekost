@@ -14,15 +14,15 @@ layout : 'base-filter.njk'
     {% include 'recept-snippet.njk' %}
   {%- endfor -%} #}
 
-  {# {%- for justine in collections.post -%}
-    {% include 'recept-snippet.njk' %}
-  {%- endfor -%} #}
-
 {# ------------- #}
 
-  {%- for post.Brecht in collections.post -%}
+  {%- for justine in collections.post -%}
     {% include 'recept-snippet.njk' %}
   {%- endfor -%}
+
+  {# {%- for post.Brecht in collections.post -%}
+    {% include 'recept-snippet.njk' %}
+  {%- endfor -%} #}
 
   {# {%- for post.brecht in collections.post -%}
     {% include 'recept-snippet.njk' %}
