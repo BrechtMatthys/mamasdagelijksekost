@@ -24,6 +24,6 @@ collections:
           - {label: "Ingredient 4", name: "ingredient4", required: false, widget: "string" }
           - {label: "Ingredient 5", name: "ingredient5", required: false, widget: "string" }
           - {label: "Ingredient 6", name: "ingredient6", required: false, widget: "string" }
-      - { label: "Bereidingswijze", name: "bereidingswijze", widget: "markdown" }
+      - { label: "Bereidingswijze", name: "body", widget: "markdown" }
       - { label: "Afbeelding", name: "image", widget: "image" }
       - { label: "Datum", name: "date", widget: "datetime" }
