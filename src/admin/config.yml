@@ -24,6 +24,20 @@ collections:
           - {label: "Ingredient 4", name: "ingredient4", required: false, widget: "string" }
           - {label: "Ingredient 5", name: "ingredient5", required: false, widget: "string" }
           - {label: "Ingredient 6", name: "ingredient6", required: false, widget: "string" }
+          - {label: "Ingredient 7", name: "ingredient7", required: false, widget: "string" }
+          - {label: "Ingredient 8", name: "ingredient8", required: false, widget: "string" }
+          - {label: "Ingredient 9", name: "ingredient9", required: false, widget: "string" }
+          - {label: "Ingredient 10", name: "ingredient10", required: false, widget: "string" }
+          - {label: "Ingredient 11", name: "ingredient11", required: false, widget: "string" }
+          - {label: "Ingredient 12", name: "ingredient12", required: false, widget: "string" }
+          - {label: "Ingredient 13", name: "ingredient13", required: false, widget: "string" }
+          - {label: "Ingredient 14", name: "ingredient14", required: false, widget: "string" }
+          - {label: "Ingredient 15", name: "ingredient15", required: false, widget: "string" }
+          - {label: "Ingredient 16", name: "ingredient16", required: false, widget: "string" }
+          - {label: "Ingredient 17", name: "ingredient17", required: false, widget: "string" }
+          - {label: "Ingredient 18", name: "ingredient18", required: false, widget: "string" }
+          - {label: "Ingredient 19", name: "ingredient19", required: false, widget: "string" }
+          - {label: "Ingredient 20", name: "ingredient20", required: false, widget: "string" }
       - { label: "Bereidingswijze", name: "body", widget: "markdown" }
       - { label: "Afbeelding", name: "image", widget: "image" }
       - { label: "Datum", name: "date", widget: "datetime" }
