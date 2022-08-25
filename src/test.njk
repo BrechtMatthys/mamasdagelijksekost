@@ -7,7 +7,7 @@ layout : 'base-filter.njk'
 <ul class="container" id="inhoudstafel">
 
 
-  {%- for post in collections.author -%}
+  {%- for post in collections.author.Justine -%}
     {% include 'recept-snippet.njk' %}
   {%- endfor -%}
 
