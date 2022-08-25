@@ -16,6 +16,10 @@ layout : 'base-filter.njk'
     {% include 'recept-snippet.njk' %}
   {%- endfor -%}
 
+  {%- for mama in collections.Brecht -%}
+    {% include 'recept-snippet.njk' %}
+  {%- endfor -%}
+
   {# {%- for post in collections.vis -%}
     {% include 'recept-snippet.njk' %}
   {%- endfor -%} #}
