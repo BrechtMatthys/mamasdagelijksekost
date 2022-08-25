@@ -6,15 +6,13 @@ layout : 'base-filter.njk'
 <h3>{{ title }}gerechten</h3>
 <ul class="container" id="inhoudstafel">
 
-  {# {%- for author in collections.post -%}
-    {% include 'recept-snippet.njk' %}
-  {%- endfor -%} #}
-
-{# ------------- #}
-
-  {%- for Justine in collections.post -%}
+  {%- for author in collections.post -%}
     {% include 'recept-snippet.njk' %}
   {%- endfor -%}
+
+  {# {%- for Justine in collections.post -%}
+    {% include 'recept-snippet.njk' %}
+  {%- endfor -%} #}
 
   {# {%- for justine in collections.post -%}
     {% include 'recept-snippet.njk' %}
