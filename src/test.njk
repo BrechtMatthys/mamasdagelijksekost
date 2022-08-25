@@ -30,13 +30,13 @@ layout : 'base-filter.njk'
     {% include 'recept-snippet.njk' %}
   {%- endfor -%} #}
 
-  {%- for post in collections.justine -%}
-    {% include 'recept-snippet.njk' %}
-  {%- endfor -%}
-
-  {# {%- for post in collections.post.Brecht -%}
+  {# deze werkt niet {%- for post in collections.justine -%}
     {% include 'recept-snippet.njk' %}
   {%- endfor -%} #}
+
+  {%- for post in collections.post.Brecht -%}
+    {% include 'recept-snippet.njk' %}
+  {%- endfor -%}
 
   {# {%- for post in collections.post.brecht -%}
     {% include 'recept-snippet.njk' %}
