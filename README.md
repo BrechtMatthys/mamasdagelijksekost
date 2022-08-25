@@ -27,7 +27,10 @@ You can [watch this video](https://youtu.be/4wD00RT6d-g) to see how Kevin uses E
 
 ## Persoonlijke to do
 
-- 'Toevoegen' knop rechtsboven /admin
+- 'Toevoegen' knop rechtsboven /admin _blank moet layout
+- -> header in grid misschien
+- ylm inklapbaar moet zeggen dat het inklap baar is ipv .birthday
+- volledige inhoudstafel naar alle recepten
 - Inhoudstafel met images zoals recent-recept-snippet
 - Mobile layout
 - Donwload als app shortcut
