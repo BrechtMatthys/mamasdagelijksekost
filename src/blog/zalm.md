@@ -1,5 +1,5 @@
 ---
-title: Zalm met papa
+title: Zalm met kaas
 author: Mama
 tags:
   - post
@@ -9,6 +9,8 @@ ingredienten:
   ingredient2: Broccoli 399g
   ingredient3: Kaas
   ingredient4: jjklklfjmjqkdfljs
+  ingredient5: frietjes
+  ingredient6: brocolli
 image: /assets/blog/img_1986.jpg
 date: 2022-08-25T16:25:46.778Z
 ---
