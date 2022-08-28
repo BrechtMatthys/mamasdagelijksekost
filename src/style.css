@@ -240,11 +240,11 @@ footer{
   position: fixed;
   bottom: 20px;
 }
-footer #volgende{
+footer #vorige{
 	grid-column: 1/2;
   grid-row: 1;
 }
-footer #vorige{
+footer #volgende{
 	grid-column: 2/3;
   grid-row: 1;
   text-align: right;
