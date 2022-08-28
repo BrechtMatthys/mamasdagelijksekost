@@ -163,9 +163,11 @@ img{
 
 
 /* inhoudstafel pagina */
+#inhoudstafel{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 #inhoudstafel li{
-	width: 50%;
-	float: left;
 	height: 50px;
 	text-align: center;
 }
