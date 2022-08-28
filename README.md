@@ -27,14 +27,13 @@ You can [watch this video](https://youtu.be/4wD00RT6d-g) to see how Kevin uses E
 
 ## Persoonlijke to do
 
-- 'Toevoegen' knop rechtsboven /admin _blank moet layout
-- -> header in grid misschien
-- ylm inklapbaar moet zeggen dat het inklap baar is ipv .birthday
-- page per gebruiker
-- layout voor BOLD ITALIC etc markup
-- volledige inhoudstafel naar alle recepten
 - Inhoudstafel met images zoals recent-recept-snippet
+
 - Mobile layout
-- Donwload als app shortcut
+- Download als app shortcut - https://medium.com/@sam20gh/how-to-add-add-to-home-screen-to-your-website-4b07aee02676
+
+- layout voor BOLD ITALIC etc markup
+
+- page per gebruiker
 - Arrows left right
 - kakken in uw schoen en morgen verder doen
