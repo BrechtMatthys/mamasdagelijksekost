@@ -6,10 +6,10 @@
   </head>
 
   <body>
-    <p id="terug"><a href="/">Startpagina</a></p>
-    <p id="nieuw"><a href="/admin">Nieuw recept</a></p>
     <header>
+      <p id="terug"><a href="/">Startpagina</a></p>
       {% include 'header.njk' %}
+      <p id="nieuw"><a href="/admin">Nieuw recept</a></p>
     </header>
       {% include 'filter.njk' %}
       {{ content | safe }}

@@ -7,7 +7,9 @@
 
   <body>
     <header>
+      <p id="terug"><a href="/">Startpagina</a></p>
       {% include 'header.njk' %}
+      <p id="nieuw"><a href="/admin">Nieuw recept</a></p>
     </header>
     {{ content | safe }}
     {#<footer>
