@@ -188,23 +188,18 @@ img{
 #zoeken{
   padding-bottom: 30px;
   overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
 }
 /*zoekbalk*/
 #myInput {
-  background-image: url('../images/searchicon.png'); /* Add a search icon to input */
-  background-position: 10px 10px; /* Position the search icon */
-  background-repeat: no-repeat; /* Do not repeat the icon image */
-  width: 47.5%; /* Full-width */
-  margin-right: 2.5%;
-  font-size: 15px; /* Increase font-size */
-  box-sizing: border-box;
+  font-size: 14px; /* Increase font-size */
   padding: 12px 20px 12px 40px; /* Add some padding */
   border: 1px solid #ddd; /* Add a grey border */
   float: left;
 }
 
 #myBtnContainer{
-  width: 47.5%;
   margin-left: 2.5%;
   text-align: right;
   float: left;
