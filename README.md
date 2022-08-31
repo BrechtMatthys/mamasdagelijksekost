@@ -27,9 +27,6 @@ You can [watch this video](https://youtu.be/4wD00RT6d-g) to see how Kevin uses E
 
 ## Persoonlijke to do
 
-- Inhoudstafel met images zoals recent-recept-snippet
-
-- Mobile layout
 - Download als app shortcut - https://medium.com/@sam20gh/how-to-add-add-to-home-screen-to-your-website-4b07aee02676
 
 - layout voor BOLD ITALIC etc markup
