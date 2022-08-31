@@ -13,7 +13,7 @@ collections:
     fields:
       - { label: "Naam van het recept", name: "title", widget: "string" }
       - { label: "Auteur", name: "author", widget: "select", options: ["Mama", "Brecht", "Justine", "Papa", "Arwen"] }
-      - { label: "Categorie (laat post staan)", name: "tags", widget: "select", multiple: true, min: 2, max: 2, options: ["post", "veggie", "vegan", "vis", "vlees"], default: ["post"] }
+      - { label: "Categorie (laat post staan)", name: "tags", widget: "select", multiple: true, min: 2, max: 2, options: ["post", "veggie", "vegan", "vis", "vlees", "soep"], default: ["post"] }
       - label: "Ingredienten"
         name: "ingredienten"
         widget: "object"
