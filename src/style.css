@@ -151,8 +151,15 @@ img{
   grid-column-gap: 50px;
 	grid-row-gap: 35px;
 }
-#inhoudstafel li img{
+#inhoudstafel .snippet-foto-div {
+  width: 100%;
+  height: 25vh;
+  overflow: hidden;
 }
+#inhoudstafel .snippet-foto-div img{
+  vertical-align: middle;
+}
+
 
 
 
@@ -369,6 +376,10 @@ body {
   #inhoudstafel li{
   	text-align: center;
   }
+  #inhoudstafel .snippet-foto-div {
+    height: 40vh;
+  }
+
 
 
   /*filter-row*/
