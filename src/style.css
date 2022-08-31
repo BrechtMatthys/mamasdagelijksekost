@@ -357,7 +357,6 @@ body {
     grid-template-columns: 1fr;
   }
   #inhoudstafel li{
-  	height: 50px;
   	text-align: center;
   }
 
