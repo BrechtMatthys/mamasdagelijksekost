@@ -259,7 +259,7 @@ body {
 
 
 
-#inhoudstafel, main{
+#inhoudstafel, #startpagina, main{
   margin-bottom: 5vh;
 }
 
@@ -278,7 +278,6 @@ body {
 
   body, footer{
     width: 95%;
-    background-color: pink;
   }
   #startpagina{
   	grid-template-columns: 1fr;
