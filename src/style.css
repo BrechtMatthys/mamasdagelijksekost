@@ -105,7 +105,8 @@ img{
 
 #startpagina{
 	display: grid;
-	grid-template-columns: 2fr 3fr 3fr;
+	/* grid-template-columns: 2fr 3fr 3fr; */
+	grid-template-columns: 1fr 3fr;
 	grid-gap: 50px;
   line-height: 22px;
 }
@@ -113,48 +114,10 @@ img{
 	grid-row: 1/2;
 }
 #startpagina div:nth-child(2){
-	grid-row: 1/2;
-}
-#startpagina div:nth-child(3){
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 25px;
 }
-#startpagina section:nth-child(4){
-	grid-column: 2/4;
-}
-#startpagina section:nth-child(4) ul{
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-gap: 20px;
-}
-#startpagina section:nth-child(4) ul li img{
-	width: 50%;
-	float: left;
-	margin-right: 20px;
-}
-#startpagina:last-child{
-	margin-bottom: 50px;
-}
-
-#startpagina h2{
-	text-align: left;
-	padding: 0 0 22px 0;
-	line-height: 2rem;
-}
-#startpagina div:first-child{
-	text-align: center;
-}
-#startpagina div:first-child h2{
-	text-align: center;
-	padding-bottom: 30px;
-	line-height: 2rem;
-}
-#startpagina p{
-	padding-bottom: 30px;
-}
-
-
 
 
 
