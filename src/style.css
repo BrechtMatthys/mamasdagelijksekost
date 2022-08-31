@@ -145,8 +145,9 @@ img{
 /* inhoudstafel pagina */
 #inhoudstafel{
   display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 50px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 50px;
+	grid-row-gap: 35px;
 }
 #inhoudstafel li img{
 }
@@ -372,10 +373,9 @@ body {
   }
   #myBtnContainer{
     text-align: center;
-    padding: 15px;
+    padding: 15px 0;
+    margin-left: 0;
   }
-
-
 
 
 
