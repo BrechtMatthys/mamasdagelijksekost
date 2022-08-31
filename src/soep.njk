@@ -1,0 +1,13 @@
+---
+title : Soep
+layout : 'base-filter.njk'
+---
+
+<h3>{{ title }}gerechten</h3>
+<ul class="container" id="inhoudstafel">
+
+  {%- for post in collections.vis -%}
+    {% include 'recept-snippet.njk' %}
+  {%- endfor -%}
+
+</ul>

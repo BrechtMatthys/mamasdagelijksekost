@@ -17,7 +17,7 @@ collections:
       - label: "Ingredienten"
         name: "ingredienten"
         widget: "object"
-        summary: 'klik hier op in te klappen'
+        summary: '{{fields.name}}: klik hier om in te klappen'
         fields:
           - {label: "Ingredient 1", name: "ingredient1", widget: "string" }
           - {label: "Ingredient 2", name: "ingredient2", required: false, widget: "string" }
@@ -39,6 +39,11 @@ collections:
           - {label: "Ingredient 18", name: "ingredient18", required: false, widget: "string" }
           - {label: "Ingredient 19", name: "ingredient19", required: false, widget: "string" }
           - {label: "Ingredient 20", name: "ingredient20", required: false, widget: "string" }
+          - {label: "Ingredient 21", name: "ingredient21", required: false, widget: "string" }
+          - {label: "Ingredient 22", name: "ingredient22", required: false, widget: "string" }
+          - {label: "Ingredient 23", name: "ingredient23", required: false, widget: "string" }
+          - {label: "Ingredient 24", name: "ingredient24", required: false, widget: "string" }
+          - {label: "Ingredient 25", name: "ingredient25", required: false, widget: "string" }
       - { label: "Bereidingswijze", name: "body", widget: "markdown" }
       - { label: "Afbeelding", name: "image", widget: "image" }
       - { label: "Datum", name: "date", widget: "datetime" }
