@@ -129,7 +129,7 @@ img{
   padding: 12px 0 30px 0;
 }
 
-#recente-recepten{
+#startpagina div:first-child a button{
   margin: 20px 0;
 }
 
@@ -144,11 +144,10 @@ img{
 /* inhoudstafel pagina */
 #inhoudstafel{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
 }
-#inhoudstafel li{
-	height: 50px;
-	text-align: center;
+#inhoudstafel li img{
 }
 
 
