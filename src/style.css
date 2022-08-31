@@ -145,7 +145,7 @@ img{
 /* inhoudstafel pagina */
 #inhoudstafel{
   display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 50px;
 }
 #inhoudstafel li img{
