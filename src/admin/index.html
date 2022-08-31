@@ -8,9 +8,11 @@
   <style>
     html, body, main, div, section, article {background-color:red;}
     h1, h2, h3, p {color:blue;}
-    .Pane, .vertical, .Pane1{
-      flex: 1 0 auto;
-      width: 100%;
+    @media (min-width: 200px) and (max-width: 800px) {
+      .Pane, .vertical, .Pane1{
+        flex: 1 0 auto;
+        width: 100%;
+      }
     }
   </style>
 </head>
