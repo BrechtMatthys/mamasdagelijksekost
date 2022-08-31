@@ -123,6 +123,14 @@ img{
 #startpagina div:first-child{
 text-align: center;
 }
+#startpagina div:first-child h2{
+text-align: center;
+padding-bottom: 30px;
+line-height: 2rem;
+}
+
+
+
 
 
 
