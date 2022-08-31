@@ -158,6 +158,8 @@ img{
 }
 #inhoudstafel .snippet-foto-div img{
   vertical-align: middle;
+  color: red;
+  font-size: 12px;
 }
 
 
