@@ -376,9 +376,9 @@ body {
   #inhoudstafel li{
   	text-align: center;
   }
-  #inhoudstafel .snippet-foto-div {
-    height: 40vh;
-  }
+  /* #inhoudstafel .snippet-foto-div {
+    height: 25vh;
+  } */
 
 
 
