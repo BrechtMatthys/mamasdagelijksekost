@@ -10,6 +10,7 @@ ingredienten:
   ingredient3: 1 ui
   ingredient4: peper, zout, oregano
   ingredient5: gemalen kaas
+image: /assets/blog/img_20210115_124745.jpg
 date: 2022-08-31T21:24:59.787Z
 ---
 Snipper de ui fijn en stoof in een pan. Voeg het gehakt toe en kruid met pezo en oregano. Bak lichtbruin. Snij de courgettes in de lengte middendoor en hol ze uit. Leg ze in een ovenschotel en strooi wat kaas in de courgettes; daarna het gehakt. Bestrooi rijkelijk met gemalen kaas.
