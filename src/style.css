@@ -361,7 +361,8 @@ body {
 
   /* inhoudstafel pagina */
   #inhoudstafel{
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 25px;
   }
   #inhoudstafel li{
   	text-align: center;
