@@ -152,6 +152,7 @@ img{
 	grid-row-gap: 35px;
 }
 #inhoudstafel .snippet-foto-div {
+  background: floralwhite;
   width: 100%;
   height: 25vh;
   overflow: hidden;
