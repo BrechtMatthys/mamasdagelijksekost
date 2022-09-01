@@ -293,7 +293,7 @@ body {
 
 }
 
-@media (min-width: 400px) and (max-width: 768px) {
+@media (min-width: 280px) and (max-width: 768px) {
 
   body, footer{
     width: 95%;
