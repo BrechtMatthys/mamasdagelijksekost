@@ -22,7 +22,7 @@ ingredienten:
 image: /assets/blog/afbeelding_2022-08-31_233541106.png
 date: 2022-08-31T21:33:43.410Z
 ---
-Wortel ui en paprika fijnsijden en stoven in boter. Tomaten en boullonblokje toevoegen. Kruiden met marjolein, basilicum, spaghettikruiden, peper en zouut, oregano, pili-pili en paprikapoerder.
+Wortel ui en paprika fijnsnijden en stoven in boter. Tomaten en bouillonblokje toevoegen. Kruiden met marjolein, basilicum, spaghettikruiden, peper en zout, oregano, pili-pili en paprikapoeder.
 
 Vlees toevoegen en alles samen laten stoven gedurende 20 minuten op matig vuurtje.
 
