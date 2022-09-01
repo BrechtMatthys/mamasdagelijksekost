@@ -92,6 +92,9 @@ main h2{
 }
 img{
 	width: 100%;
+  vertical-align: middle;
+  color: red;
+  font-size: 12px;
 }
 
 
@@ -363,9 +366,6 @@ body {
   }
   img{
   	width: 100%;
-    vertical-align: middle;
-    color: red;
-    font-size: 12px;
   }
 
 
