@@ -192,10 +192,12 @@ img{
 /*zoekbalk*/
 #myInput {
   font-size: 14px;
-  padding: 12px 20px 12px 40px;
+  padding: 12px 20px;
   border: 1px solid black;
   float: left;
+	font-family: 'Raleway', sans-serif;
 }
+
 
 #myBtnContainer{
   margin-left: 2.5%;
