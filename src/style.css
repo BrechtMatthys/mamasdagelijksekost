@@ -168,9 +168,6 @@ img{
   color: red;
   font-size: 12px;
 }
-#inhoudstafel a li{
- content-visibility: auto;
-}
 #inhoudstafel a li p, #startpagina a p{
   margin-top: 11px;
 }
