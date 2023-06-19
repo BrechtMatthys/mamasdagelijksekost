@@ -7,7 +7,7 @@ layout: 'base-recept.njk'
 {% set comma = joiner() %}
 {% for tag in tags -%}
   {% if tag !== 'posts' %}
-    {{ comma() }} <span class="tag">{{ tags }}</span>
+    {{ comma() }} <span class="tag">{{ tag }}</span>
   {% endif %}
 {%- endfor %}
 
