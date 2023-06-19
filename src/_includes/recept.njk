@@ -2,15 +2,7 @@
 layout: 'base-recept.njk'
 ---
 
-<h2>{{ title }} ({{post.data.tags}})({{post.data.tag}})({{tags}})</h2>
-
-  {%- for post in collections.post -%}
-    <p>({{post.data.tags}})({{post.data.tag}})({{tags}})</p>
-  {%- endfor -%}
-  {%- for post in collections.recept -%}
-    <p>({{post.data.tags}})({{post.data.tag}})({{tags}})</p>
-  {%- endfor -%}
-
+<h2>{{ title }} ({{post.tags}})</h2>
 <div>
   <p class="ingredienten">Ingredi&euml;nten</p>
   <ul class="ingredientenlist">
