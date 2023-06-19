@@ -27,8 +27,6 @@ You can [watch this video](https://youtu.be/4wD00RT6d-g) to see how Kevin uses E
 
 ## Persoonlijke to do
 
-- ingredienten met opsomming doen, ipv invoegvakken
-
 - hoeveel personen input vak
 
 - op recept: hoeveel personen weergeven
