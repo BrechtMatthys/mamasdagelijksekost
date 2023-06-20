@@ -2,14 +2,15 @@
 layout: 'base-recept.njk'
 ---
 
-<h2>{{ title }} ({{tags | join(', ')}})</h2>
+<h2>{{ title }} ({{tags | join(' ')}})</h2>
 
-{% set comma = joiner() %}
+<h2>{{ title }} ({% set comma = joiner() %}
 {% for tag in tags -%}
-  {% if tag !== 'posts' %}
-    {{ comma() }} <span class="tag">{{ tag }}</span>
+  {% if tag !== 'post' %}
+    {{ tag }}
   {% endif %}
-{%- endfor %}
+{%- endfor %})</h2>
+
 
 <div>
   <p class="ingredienten">Ingredi&euml;nten</p>
