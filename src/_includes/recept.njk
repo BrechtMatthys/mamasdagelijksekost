@@ -9,6 +9,9 @@ layout: 'base-recept.njk'
   <p class="ingredienten">Ingredi&euml;nten</p>
   <ul class="ingredientenlist">
     <li>{{ ingredienten.ingr }} #</li>
+
+    <li> {{ ingredienten.ingr | join('') }}</li>
+
     <li>{{ ingredienten.ingredient1 }}</li>
     <li>{{ ingredienten.ingredient2 }}</li>
     <li>{{ ingredienten.ingredient3 }}</li>
