@@ -13,8 +13,8 @@ layout: 'base-recept.njk'
 
 
 
-    {% for ingredienten in ingredienten.ingr | split('\n') %}
-      <li>{{ ingredient | trim('* ') }}</li>
+    {% for item in page.ingredienten %}
+      <li>{{ item.ingr | trim('* ') }}</li>
     {% endfor %}
 
 
