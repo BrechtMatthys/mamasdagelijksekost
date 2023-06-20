@@ -11,7 +11,7 @@ layout: 'base-recept.njk'
     <li>{{ ingredienten.ingr | safe }}</li>
 
 
-{{ ingredient | join(', ') }}
+{{ ingredienten.ingr | join(', ') }}
 
 {# {% for ingredient in ingredienten.ingr -%}
   {% if ingredient !== '* ' %}
