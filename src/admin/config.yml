@@ -16,6 +16,7 @@ collections:
       - { label: "Aantal personen", name: "personen", widget: "number", default: "4" }
       - { label: "Categorie (laat post staan)", name: "tags", widget: "select", multiple: true, min: 2, max: 2, options: ["post", "veggie", "vegan", "vis", "vlees", "soep", "dessert"], default: ["post"] }
       - {label: "Ingr", name: "ingr", widget: "markdown" }
+      - {label: "Ingredient 26", name: "ingredient26", required: false, widget: "string" }
       - label: "Ingredienten"
         name: "ingredienten"
         widget: "object"
