@@ -27,6 +27,8 @@ You can [watch this video](https://youtu.be/4wD00RT6d-g) to see how Kevin uses E
 
 ## Persoonlijke to do
 
+- zoekbalk?????
+
 - hoeveel personen input vak
 
 - op recept: hoeveel personen weergeven
