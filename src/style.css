@@ -20,6 +20,9 @@ h2, .ingredienten, .ingredientenlist{
 .bereidingswijze{
   	padding: 12px 0 0 0;
 }
+h2 span{
+  font-size: 1.5em;
+}
 main div:nth-child(3) p:nth-child(2){
 	padding-top: 12px;
 }
