@@ -8,8 +8,7 @@ layout: 'base-recept.njk'
 <div>
   <p class="ingredienten">Ingredi&euml;nten</p>
   <ul class="ingredientenlist">
-    <li>{{ ingredienten.ingr | safe }}</li>
-      {{ content | safe }}
+    <li>{{ ingredienten.ingr | split }}</li>
 
 
     <li>{{ ingredienten.ingredient1 }}</li>
