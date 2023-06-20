@@ -17,6 +17,7 @@ collections:
       - { label: "Categorie (laat post staan)", name: "tags", widget: "select", multiple: true, min: 2, max: 2, options: ["post", "veggie", "vegan", "vis", "vlees", "soep", "dessert"], default: ["post"] }
       - label: "Ingredienten"
         name: "ingredienten"
+        create: true
         widget: "object"
         summary: 'klik hier om uit te klappen'
         fields:
