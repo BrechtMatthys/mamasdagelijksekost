@@ -8,14 +8,8 @@ layout: 'base-recept.njk'
 <div>
   <p class="ingredienten">Ingredi&euml;nten</p>
   <ul class="ingredientenlist">
-    <li>{{ ingredienten.ingr | safe }}</li>
+    <li>{{ ingredienten.ingr }}</li>
 
-
-{# {% for ingredient in ingredienten.ingr -%}
-  {% if ingredient !== 'test' %}
-    {{ ingredient }}
-  {% endif %}
-{%- endfor %} #}
 
 
     <li>{{ ingredienten.ingredient1 }}</li>
