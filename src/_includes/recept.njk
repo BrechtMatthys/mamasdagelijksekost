@@ -10,14 +10,12 @@ layout: 'base-recept.njk'
   <ul class="ingredientenlist">
     <li>{{ ingredienten.ingr | safe }}</li>
 
-
-  {# {% for ingredient in ingredienten.ingr %}
-    <li>{{ ingredient }}</li>
-  {% endfor %} #}
-
-
-  {# {% for ingr in ingredienten -%}{% if ingr !== '*' %}{% endif %}{%- endfor %} #}
-{% for ingredient in ingredienten.ingr -%}{% if ingredient !== '* ' %}{{ ingredient }}{% endif %}{%- endfor %}
+{% set comma = joiner() %}
+{% for ingredient in ingredienten.ingr -%}
+  {% if ingredient !== '* ' %}
+    {{ comma() }} <li>{{ ingredient }}</li>
+  {% endif %}
+{%- endfor %}
 
     <li>{{ ingredienten.ingredient1 }}</li>
     <li>{{ ingredienten.ingredient2 }}</li>
