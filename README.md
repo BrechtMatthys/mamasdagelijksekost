@@ -30,7 +30,6 @@ You can [watch this video](https://youtu.be/4wD00RT6d-g) to see how Kevin uses E
 - hoeveel personen input vak
 
 - op recept: hoeveel personen weergeven
-- op recept: categorie / ja nee doen we nie want post is ook een tag en die doet iets van post,post,veggie
 
 - Download als app shortcut - https://medium.com/@sam20gh/how-to-add-add-to-home-screen-to-your-website-4b07aee02676
 
