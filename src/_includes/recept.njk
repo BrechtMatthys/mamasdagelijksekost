@@ -8,7 +8,9 @@ layout: 'base-recept.njk'
 <div>
   <p class="ingredienten">Ingredi&euml;nten</p>
   <ul class="ingredientenlist">
-    <li>{{ ingredienten.ingr }}</li>
+  {% for item in collections.list %}
+    <li>{{ item.data.title }}</li>
+  {% endfor %}
 
 
 

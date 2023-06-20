@@ -18,10 +18,12 @@ collections:
 
       - label: "Ingredientenlijst"
         name: "test2"
-        widget: "list"
+        folder: _data/list
+        create: true
+        format: yml
+        slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
         fields:
-          - {label: "Ingr", name: "ingr", widget: "string" }
-          - {label: "Ingr2", name: "ingr2", widget: "string" }
+          - { name: title, label: Title, widget: string }
 
       
       - label: "Ingredienten"
