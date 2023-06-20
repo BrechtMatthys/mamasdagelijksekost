@@ -38,3 +38,6 @@ You can [watch this video](https://youtu.be/4wD00RT6d-g) to see how Kevin uses E
 - page per gebruiker
 - Arrows left right
 - kakken in uw schoen en morgen verder doen
+
+
+https://www.11ty.dev/docs/collections/

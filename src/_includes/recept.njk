@@ -2,7 +2,7 @@
 layout: 'base-recept.njk'
 ---
 
-<h2>{{ title }} {% for tag in tags -%}{% if tag !== 'post' %}<span>({{ tag }})</span>{% endif %}{%- endfor %}</h2>
+<h2>{{ title }} {% for tag in tags -%}{% if tag !== 'post' %}<span>({{ tag }})</span>{% endif %}{%- endfor %}{{personen}}</h2>
 
 
 <div>
