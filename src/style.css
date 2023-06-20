@@ -196,7 +196,8 @@ img{
 #myInput {
   font-size: 14px;
   padding: 12px 40px;
-  margin: 2px auto;
+  margin-top: 2px;
+  margin-bottom: 2px;
   border: 1px solid black;
   float: left;
 	font-family: 'Raleway', sans-serif;
