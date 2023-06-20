@@ -11,11 +11,9 @@ layout: 'base-recept.njk'
     <li>{{ ingredienten.ingr | safe }}</li>
 
 
-
-
-    {% for ingr in ingredienten %}
-      <li>{{ ingr | trim('* ')}}</li>
-    {% endfor %}
+  {% for ingredient in ingredienten.ingr | split('\n') %}
+    <li>{{ ingredient | trim }}</li>
+  {% endfor %}
 
 
 
