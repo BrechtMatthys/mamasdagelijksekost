@@ -2,6 +2,7 @@
 author: Mama
 imageAlt: This is a test
 title: Balletjes in tomatensaus
+personen: 4
 tags:
   - post
   - vlees
