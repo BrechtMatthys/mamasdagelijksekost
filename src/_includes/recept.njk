@@ -12,7 +12,7 @@ layout: 'base-recept.njk'
 
 
 {% for ingredient in ingredienten.ingr -%}
-  {% if ingredient !== 'test' %}
+  {% if ingredient == '* ' %}
     {{ ingredient }}
   {% endif %}
 {%- endfor %}
