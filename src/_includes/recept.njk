@@ -11,13 +11,11 @@ layout: 'base-recept.njk'
     <li>{{ ingredienten.ingr | safe }}</li>
 
 
-{{ ingredienten.ingr | join(', ') }}
-
-{# {% for ingredient in ingredienten.ingr -%}
-  {% if ingredient !== '* ' %}
-    <li>{{ ingredient }}</li>
+{% for ingredient in ingredienten.ingr -%}
+  {% if ingredient !== 'test' %}
+    {{ ingredient }}
   {% endif %}
-{%- endfor %} #}
+{%- endfor %}
 
 
     <li>{{ ingredienten.ingredient1 }}</li>
