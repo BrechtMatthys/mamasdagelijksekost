@@ -10,7 +10,7 @@ test: |-
   * q﻿fsdfsdq
   * d﻿fqsdf
 ingredienten:
-  ingredient1: none
+  ingredient1: ""
   ingr: |-
     * t﻿est
     * t﻿est2
