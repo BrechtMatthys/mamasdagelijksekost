@@ -16,8 +16,8 @@ layout: 'base-recept.njk'
   {% endfor %} #}
 
 
-  {% for ingr in ingredienten -%}{% if ingr !== '*' %}{% endif %}{%- endfor %}
-{# {% for ingredient in ingredienten.ingr -%}{% if ingredient !== '*' %} #}
+  {# {% for ingr in ingredienten -%}{% if ingr !== '*' %}{% endif %}{%- endfor %} #}
+{% for ingredient in ingredienten.ingr -%}{% if ingredient !== '*' %}
 
     <li>{{ ingredienten.ingredient1 }}</li>
     <li>{{ ingredienten.ingredient2 }}</li>
