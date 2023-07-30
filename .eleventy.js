@@ -8,7 +8,6 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('./src/admin');
   eleventyConfig.addPassthroughCopy('./src/scripts/jquery-3.1.1.js');
   eleventyConfig.addPassthroughCopy('./src/scripts/zoekbalk.js');
-  eleventyConfig.addPassthroughCopy("_data");
 
   // eleventyConfig.addFilter("postDate", (dateObj) => {
   //    return DateTime.fromJSDate(dateObj).toLocalString(DateTime.DATE_MED);
