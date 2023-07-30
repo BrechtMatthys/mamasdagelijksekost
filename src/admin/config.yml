@@ -53,5 +53,8 @@ collections:
           - {label: "Ingredient 24", name: "ingredient24", required: false, widget: "string" }
           - {label: "Ingredient 25", name: "ingredient25", required: false, widget: "string" }
 
+          
+      - {label: "Body", name: "body", widget: "markdown"}
+
       - { label: "Afbeelding", name: "image", required: false, widget: "image" }
       - { label: "Datum", name: "date", widget: "datetime" }
