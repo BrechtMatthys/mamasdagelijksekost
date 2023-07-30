@@ -15,9 +15,11 @@ tags:
   - post
   - vlees
 ingredientenn:
-  - - balls
-  - - balls2
+  - balls
+  - in
   - balls3
+image: /assets/blog/article-1.jpg
+date: 2021-05-01
 ingredienten:
   ingredient1: 600 gr gehakt
   ingredient2: 1 snede brood zonder korst
@@ -28,8 +30,6 @@ ingredienten:
   ingredient7: 1 blik gepelde tomaten
   ingredient8: 1 rode paprika
   ingredient9: 1 bouillonblokje
-image: /assets/blog/article-1.jpg
-date: 2021-05-01
 description: Lorem ipsum dolor sit amet consectetur adipisicing elit.
   Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae
   delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio
