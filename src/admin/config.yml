@@ -16,27 +16,11 @@ collections:
       - { label: "Aantal personen", name: "personen", widget: "number", default: "4" }
       - { label: "Categorie (laat post staan)", name: "tags", widget: "select", multiple: true, min: 2, max: 2, options: ["post", "veggie", "vegan", "vis", "vlees", "soep", "dessert"], default: ["post"] }
 
-<<<<<<< HEAD
 
-      
-      # - label: "Ingredientenn"
-      #   name: "ingredientenn"
-      #   widget: "list"
-      #   summary: 'klik hier om uit te klappen'
-      #   field:
-      #     - {label: "Ingredientt", name: "ingredientt", widget: "string" }
-=======
-      - label: "Ingredientenlijst"
-        name: "test2"
-        widget: "list"
-        fields:
-          - {label: "Ingr", name: "ingr", widget: "string" }
->>>>>>> parent of 89a7ed3 (Update config.yml)
-
-- label: "Ingredientenn"
-  name: "ingredientenn"
+- label: "Ingredienten"
+  name: "ingredienten"
   widget: "list"
-  field: {label: "Ingredientt", name: "ingredientt", widget: "list"}
+  field: {label: "Ingredient", name: "ingredient", widget: "list"}
       
       - label: "Ingredienten"
         name: "ingredienten"
@@ -69,6 +53,5 @@ collections:
           - {label: "Ingredient 24", name: "ingredient24", required: false, widget: "string" }
           - {label: "Ingredient 25", name: "ingredient25", required: false, widget: "string" }
 
-      - { label: "Bereidingswijze", name: "body", widget: "markdown" }
       - { label: "Afbeelding", name: "image", required: false, widget: "image" }
       - { label: "Datum", name: "date", widget: "datetime" }
