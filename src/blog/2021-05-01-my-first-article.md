@@ -17,7 +17,7 @@ tags:
 ingredientenn:
   - - balls
   - - balls2
-  - - balls3
+  - balls3
 ingredienten:
   ingredient1: 600 gr gehakt
   ingredient2: 1 snede brood zonder korst
