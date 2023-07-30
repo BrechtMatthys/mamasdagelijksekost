@@ -22,13 +22,21 @@ collections:
       #   fields:
       #     - {label: "Ingr", name: "ingr", widget: "string" }
 
-      - label: "test3"
-        name: "Ingredientenlijst_2"
+      # - label: "test3"
+      #   name: "Ingredientenlijst_2"
+      #   widget: "list"
+      #   summary: 'klik hier om uit te klappen'
+      #   minimize_collapsed: true
+      #   add_to_top: true
+      #   field: {label: label_ingredientenlijst, name: name_ingredientenlijst, widget: string}
+
+
+- label: "Ingredienten"
+        name: "ingredienten"
         widget: "list"
         summary: 'klik hier om uit te klappen'
-        minimize_collapsed: true
-        add_to_top: true
-        field: {label: label_ingredientenlijst, name: name_ingredientenlijst, widget: string}
+        field:
+          - {label: "Ingredientt", name: "ingredientt", required: false, widget: "string" }
 
 
 
