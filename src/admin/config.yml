@@ -17,10 +17,10 @@ collections:
       - { label: "Categorie (laat post staan)", name: "tags", widget: "select", multiple: true, min: 2, max: 2, options: ["post", "veggie", "vegan", "vis", "vlees", "soep", "dessert"], default: ["post"] }
 
 
-- label: "Ingredienten"
-  name: "ingredienten"
-  widget: "list"
-  field: {label: "Ingredient", name: "ingredient", widget: "list"}
+# - label: "Ingredienten"
+#   name: "ingredienten"
+#   widget: "list"
+#   field: {label: "Ingredient", name: "ingredient", widget: "list"}
       
       - label: "Ingredienten"
         name: "ingredienten"
