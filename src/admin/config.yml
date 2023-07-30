@@ -18,14 +18,17 @@ collections:
 
 
       
-      - label: "Ingredientenn"
-        name: "ingredientenn"
-        widget: "list"
-        summary: 'klik hier om uit te klappen'
-        field:
-          - {label: "Ingredientt", name: "ingredientt", widget: "list" }
+      # - label: "Ingredientenn"
+      #   name: "ingredientenn"
+      #   widget: "list"
+      #   summary: 'klik hier om uit te klappen'
+      #   field:
+      #     - {label: "Ingredientt", name: "ingredientt", widget: "string" }
 
-
+- label: "Ingredientenn"
+  name: "ingredientenn"
+  widget: "list"
+  field: {label: Ingredientt, name: ingredientt, widget: string}
       
       - label: "Ingredienten"
         name: "ingredienten"
