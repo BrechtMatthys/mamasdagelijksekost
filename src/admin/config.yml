@@ -20,7 +20,7 @@ collections:
       - label: "Ingredientenn"
         name: "ingredientenn"
         widget: "list"
-        field: {label: "Ingredientt", name: "ingredientt", widget: "list"}
+        field: {label: "Ingredientt", name: "ingredientt", widget: "string"}
       
       - label: "Ingredienten"
         name: "ingredienten"
