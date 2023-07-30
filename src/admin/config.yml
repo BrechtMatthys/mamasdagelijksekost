@@ -16,14 +16,14 @@ collections:
       - { label: "Aantal personen", name: "personen", widget: "number", default: "4" }
       - { label: "Categorie (laat post staan)", name: "tags", widget: "select", multiple: true, min: 2, max: 2, options: ["post", "veggie", "vegan", "vis", "vlees", "soep", "dessert"], default: ["post"] }
 
-      # - label: "Ingredientenlijst"
-      #   name: "test2"
-      #   widget: "list"
-      #   fields:
-      #     - {label: "Ingr", name: "ingr", widget: "string" }
+      - label: "Ingredientenlijst"
+        name: "test2"
+        widget: "list"
+        fields:
+          - {label: "Ingr", name: "ingr", widget: "string" }
 
       
-- label: "Ingredienten"
+      - label: "Ingredienten"
         name: "ingredienten"
         widget: "list"
         summary: 'klik hier om uit te klappen'
@@ -31,37 +31,37 @@ collections:
           - {label: "Ingredientt", name: "ingredientt", required: false, widget: "string" }
 
 
-
-      # - label: "Ingredienten"
-      #   name: "ingredienten"
-      #   widget: "object"
-      #   summary: 'klik hier om uit te klappen'
-      #   fields:
-      #     - {label: "Ingredient 1", name: "ingredient1", required: false, widget: "string" }
-      #     - {label: "Ingredient 2", name: "ingredient2", required: false, widget: "string" }
-      #     - {label: "Ingredient 3", name: "ingredient3", required: false, widget: "string" }
-      #     - {label: "Ingredient 4", name: "ingredient4", required: false, widget: "string" }
-      #     - {label: "Ingredient 5", name: "ingredient5", required: false, widget: "string" }
-      #     - {label: "Ingredient 6", name: "ingredient6", required: false, widget: "string" }
-      #     - {label: "Ingredient 7", name: "ingredient7", required: false, widget: "string" }
-      #     - {label: "Ingredient 8", name: "ingredient8", required: false, widget: "string" }
-      #     - {label: "Ingredient 9", name: "ingredient9", required: false, widget: "string" }
-      #     - {label: "Ingredient 10", name: "ingredient10", required: false, widget: "string" }
-      #     - {label: "Ingredient 11", name: "ingredient11", required: false, widget: "string" }
-      #     - {label: "Ingredient 12", name: "ingredient12", required: false, widget: "string" }
-      #     - {label: "Ingredient 13", name: "ingredient13", required: false, widget: "string" }
-      #     - {label: "Ingredient 14", name: "ingredient14", required: false, widget: "string" }
-      #     - {label: "Ingredient 15", name: "ingredient15", required: false, widget: "string" }
-      #     - {label: "Ingredient 16", name: "ingredient16", required: false, widget: "string" }
-      #     - {label: "Ingredient 17", name: "ingredient17", required: false, widget: "string" }
-      #     - {label: "Ingredient 18", name: "ingredient18", required: false, widget: "string" }
-      #     - {label: "Ingredient 19", name: "ingredient19", required: false, widget: "string" }
-      #     - {label: "Ingredient 20", name: "ingredient20", required: false, widget: "string" }
-      #     - {label: "Ingredient 21", name: "ingredient21", required: false, widget: "string" }
-      #     - {label: "Ingredient 22", name: "ingredient22", required: false, widget: "string" }
-      #     - {label: "Ingredient 23", name: "ingredient23", required: false, widget: "string" }
-      #     - {label: "Ingredient 24", name: "ingredient24", required: false, widget: "string" }
-      #     - {label: "Ingredient 25", name: "ingredient25", required: false, widget: "string" }
+      
+      - label: "Ingredienten"
+        name: "ingredienten"
+        widget: "object"
+        summary: 'klik hier om uit te klappen'
+        fields:
+          - {label: "Ingredient 1", name: "ingredient1", required: false, widget: "string" }
+          - {label: "Ingredient 2", name: "ingredient2", required: false, widget: "string" }
+          - {label: "Ingredient 3", name: "ingredient3", required: false, widget: "string" }
+          - {label: "Ingredient 4", name: "ingredient4", required: false, widget: "string" }
+          - {label: "Ingredient 5", name: "ingredient5", required: false, widget: "string" }
+          - {label: "Ingredient 6", name: "ingredient6", required: false, widget: "string" }
+          - {label: "Ingredient 7", name: "ingredient7", required: false, widget: "string" }
+          - {label: "Ingredient 8", name: "ingredient8", required: false, widget: "string" }
+          - {label: "Ingredient 9", name: "ingredient9", required: false, widget: "string" }
+          - {label: "Ingredient 10", name: "ingredient10", required: false, widget: "string" }
+          - {label: "Ingredient 11", name: "ingredient11", required: false, widget: "string" }
+          - {label: "Ingredient 12", name: "ingredient12", required: false, widget: "string" }
+          - {label: "Ingredient 13", name: "ingredient13", required: false, widget: "string" }
+          - {label: "Ingredient 14", name: "ingredient14", required: false, widget: "string" }
+          - {label: "Ingredient 15", name: "ingredient15", required: false, widget: "string" }
+          - {label: "Ingredient 16", name: "ingredient16", required: false, widget: "string" }
+          - {label: "Ingredient 17", name: "ingredient17", required: false, widget: "string" }
+          - {label: "Ingredient 18", name: "ingredient18", required: false, widget: "string" }
+          - {label: "Ingredient 19", name: "ingredient19", required: false, widget: "string" }
+          - {label: "Ingredient 20", name: "ingredient20", required: false, widget: "string" }
+          - {label: "Ingredient 21", name: "ingredient21", required: false, widget: "string" }
+          - {label: "Ingredient 22", name: "ingredient22", required: false, widget: "string" }
+          - {label: "Ingredient 23", name: "ingredient23", required: false, widget: "string" }
+          - {label: "Ingredient 24", name: "ingredient24", required: false, widget: "string" }
+          - {label: "Ingredient 25", name: "ingredient25", required: false, widget: "string" }
 
       - { label: "Bereidingswijze", name: "body", widget: "markdown" }
       - { label: "Afbeelding", name: "image", required: false, widget: "image" }
