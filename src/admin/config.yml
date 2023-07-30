@@ -16,6 +16,7 @@ collections:
       - { label: "Aantal personen", name: "personen", widget: "number", default: "4" }
       - { label: "Categorie (laat post staan)", name: "tags", widget: "select", multiple: true, min: 2, max: 2, options: ["post", "veggie", "vegan", "vis", "vlees", "soep", "dessert"], default: ["post"] }
 
+<<<<<<< HEAD
 
       
       # - label: "Ingredientenn"
@@ -24,6 +25,13 @@ collections:
       #   summary: 'klik hier om uit te klappen'
       #   field:
       #     - {label: "Ingredientt", name: "ingredientt", widget: "string" }
+=======
+      - label: "Ingredientenlijst"
+        name: "test2"
+        widget: "list"
+        fields:
+          - {label: "Ingr", name: "ingr", widget: "string" }
+>>>>>>> parent of 89a7ed3 (Update config.yml)
 
 - label: "Ingredientenn"
   name: "ingredientenn"
