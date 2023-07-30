@@ -22,8 +22,8 @@ collections:
       #   fields:
       #     - {label: "Ingr", name: "ingr", widget: "string" }
 
-      - label: "Ingredientenlijst_2"
-        name: "test3"
+      - label: "test3"
+        name: "Ingredientenlijst_2"
         widget: "list"
         summary: 'klik hier om uit te klappen'
         minimize_collapsed: true
