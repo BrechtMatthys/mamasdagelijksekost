@@ -18,6 +18,8 @@ ingredientenn:
   - balls
   - in
   - balls3
+  - suiker
+  - zout
 image: /assets/blog/article-1.jpg
 date: 2021-05-01
 ingredienten:
