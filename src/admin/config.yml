@@ -35,7 +35,7 @@ collections:
         name: "ingredienten"
         widget: "list"
         summary: 'klik hier om uit te klappen'
-        field:
+        fields:
           - {label: "Ingredientt", name: "ingredientt", required: false, widget: "string" }
 
 
