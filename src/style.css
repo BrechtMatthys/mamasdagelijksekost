@@ -101,7 +101,7 @@ img{
 }
 main figure img{
   border-radius: 10px;
-  box-shadow: 0 3.2px 2.2px rgb(0 0 0 / 2%), 0 7px 5.4px rgb(0 0 0 / 3%), 0 12.1px 10.1px rgb(0 0 0 / 4%), 0 19.8px 18.1px rgb(0 0 0 / 4%), 0 34.7px 33.8px rgb(0 0 0 / 5%), 0 81px 81px rgb(0 0 0 / 7%);
+  box-shadow: 0 1.6px 1.1px rgb(0 0 0 / 2%), 0 3.5px 2.7px rgb(0 0 0 / 3%), 0 6.05px 5.05px rgb(0 0 0 / 4%), 0 9.9px 9.05px rgb(0 0 0 / 4%), 0 17.35px 16.9px rgb(0 0 0 / 5%), 0 40.5px 40.5px rgb(0 0 0 / 7%);
   
 }
 
@@ -174,7 +174,7 @@ main figure img{
 }
 #inhoudstafel a li, #startpagina div:nth-child(2) a figure{
   border-radius: 10px;
-  box-shadow: 0 3.2px 2.2px rgb(0 0 0 / 2%), 0 7px 5.4px rgb(0 0 0 / 3%), 0 12.1px 10.1px rgb(0 0 0 / 4%), 0 19.8px 18.1px rgb(0 0 0 / 4%), 0 34.7px 33.8px rgb(0 0 0 / 5%), 0 81px 81px rgb(0 0 0 / 7%);
+  box-shadow: 0 1.6px 1.1px rgb(0 0 0 / 2%), 0 3.5px 2.7px rgb(0 0 0 / 3%), 0 6.05px 5.05px rgb(0 0 0 / 4%), 0 9.9px 9.05px rgb(0 0 0 / 4%), 0 17.35px 16.9px rgb(0 0 0 / 5%), 0 40.5px 40.5px rgb(0 0 0 / 7%);
 }
 #inhoudstafel .snippet-foto-div, #startpagina div:nth-child(2) img{ /*2*/
     border-radius: 10px 10px 7px 7px;
