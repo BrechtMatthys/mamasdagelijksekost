@@ -7,8 +7,8 @@ tags:
   - vlees
 ingredientenn:
   - 500 gr pasta naar keuze
-  - 600 gr kipfilet, in blokjes gesneden
   - 1 ajuin, fijngesnipperd
+  - 400 gr kipfilet, in blokjes gesneden
   - 400 ml (light)room
   - 1 groentebouillonblokje
   - 1 koffielepel worcestershiresaus of lichte sojasaus
