@@ -213,6 +213,9 @@ main figure img{
   margin-bottom: 2px;
   background-color: rgb(193 186 177 / 3%);
   box-shadow: 0 0.16px 0.11px rgb(0 0 0 / 2%), 0 0.33px 0.25px rgb(0 0 0 / 3%), 0 0.48px 0.40px rgb(0 0 0 / 4%), 0 0.82px 0.75px rgb(0 0 0 / 4%), 0 1.39px 1.26px rgb(0 0 0 / 5%), 0 5px 5px rgb(0 0 0 / 7%);
+  border: none;
+  border-radius: 7px;
+  margin-left: 2px;
   float: left;
 	font-family: 'Raleway', sans-serif;
 }
