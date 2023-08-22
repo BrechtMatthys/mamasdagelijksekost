@@ -101,7 +101,7 @@ img{
 }
 main figure img{
   border-radius: 10px;
-  box-shadow: 0 3.2px 2.2px rgb(0 0 0 / 2%), 0 7px 5.4px rgb(0 0 0 / 3%), 0 12.1px 10.1px rgb(0 0 0 / 4%), 0 19.8px 18.1px rgb(0 0 0 / 4%), 0 34.7px 33.8px rgb(0 0 0 / 5%), 0 81px 81px rgb(0 0 0 / 7%);
+  box-shadow: 0 0.16px 0.11px rgb(0 0 0 / 2%), 0 0.33px 0.25px rgb(0 0 0 / 3%), 0 0.48px 0.40px rgb(0 0 0 / 4%), 0 0.82px 0.75px rgb(0 0 0 / 4%), 0 1.39px 1.26px rgb(0 0 0 / 5%), 0 5px 5px rgb(0 0 0 / 7%);
   
 }
 
