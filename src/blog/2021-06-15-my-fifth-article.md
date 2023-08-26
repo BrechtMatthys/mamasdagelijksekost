@@ -1,11 +1,17 @@
 ---
-title: Stoofvlees met puree en appelmoes of frietjes
-author: Kevin Powell
-date: 2021-06-15
-tags: ["post", "featured"]
-image: /assets/blog/article-5.jpg
+author: Mama
 imageAlt: This is a test
-description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?
+title: Stoofvlees met puree en appelmoes of frietjes
+personen: 4
+tags:
+  - post
+  - vlees
+image: /assets/blog/1000008432.jpg
+date: 2021-06-15
+description: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae
+  delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio
+  aliquam?
 ---
 
 Smelt de boter in een snelkookpot en laat de stukken varkensvlees erin braden.
