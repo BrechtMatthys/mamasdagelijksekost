@@ -1,6 +1,5 @@
 ---
 author: Mama
-imageAlt: This is a test
 title: Stoofvlees met puree of frietjes en appelmoes
 personen: 4
 tags:

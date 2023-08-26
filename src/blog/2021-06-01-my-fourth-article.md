@@ -4,7 +4,6 @@ author: Kevin Powell
 date: 2021-06-01
 tags: ["post", "featured", "vegan"]
 image: /assets/blog/article-4.jpg
-imageAlt: This is a test
 description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?
 ---
 
