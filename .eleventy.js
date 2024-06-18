@@ -16,9 +16,16 @@ module.exports = function(eleventyConfig) {
     breaks: true,
     linkify: true
   });
+  eleventyConfig.addPlugin(require("@11ty/eleventy-plugin-syntaxhighlight"));
+
   eleventyConfig.setLibrary("md", markdownLibrary);
 
-  // Add Filter (if needed)
+  // Add Filter for Markdown
+  eleventyConfig.addFilter("markdown", (content) => {
+    return markdownLibrary.render(content);
+  });
+
+  // Add Filter for Date Formatting
   eleventyConfig.addFilter("postDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj).toLocalString(DateTime.DATE_MED);
   });
