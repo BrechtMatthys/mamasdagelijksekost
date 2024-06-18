@@ -1,5 +1,5 @@
 ---
-title: vosenstaart met pluimen
+title: Vossenstaart met pluimen
 author: Papa
 personen: "4"
 tags:
