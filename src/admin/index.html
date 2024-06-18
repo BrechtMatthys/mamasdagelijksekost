@@ -55,31 +55,6 @@
       }
     }
   </style>-->
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      if (window.netlifyIdentity) {
-        window.netlifyIdentity.on('init', user => {
-          if (user) {
-            setAuthorField(user);
-          }
-        });
-
-        window.netlifyIdentity.on('login', user => {
-          setAuthorField(user);
-        });
-
-        window.netlifyIdentity.init();
-      }
-
-      function setAuthorField(user) {
-        const authorFields = document.querySelectorAll('[name="author"]');
-        authorFields.forEach(field => {
-          field.value = user.user_metadata.full_name || user.email;
-        });
-      }
-    });
-  </script>
 </head>
 <body>
   <!-- Include the script that builds the page and powers Netlify CMS -->
