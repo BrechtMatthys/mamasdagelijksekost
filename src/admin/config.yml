@@ -23,6 +23,7 @@ collections:
         field: {label: "Ingredientt", name: "ingredientt", widget: "string"}
           
       - {label: "Body", name: "body", required: false, widget: "markdown"}
+      - { label: "Additional Content Ingredienten", name: "additional_content", required: false, widget: "markdown" }
 
       - { label: "Afbeelding", name: "image", required: false, widget: "image" }
       - { label: "Datum", name: "date", widget: "datetime" }
