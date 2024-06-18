@@ -8,7 +8,7 @@ layout: 'base-recept.njk'
 <div>
   <p class="ingredienten">Ingredi&euml;nten</p>
   <ul class="ingredientenlist">
-    {{ additional_content | safe }}
+    {{ content | safe }}
 
     <li>{{ ingredientenn[0] }}</li>
     <li>{{ ingredientenn[1] }}</li>
@@ -50,7 +50,7 @@ layout: 'base-recept.njk'
 </div>
 <div>
   <p class="bereidingswijze">Bereidingswijze</p>
-  {{ content | safe }}
+  {{ additional_content | safe }}
 </div>
 <figure>
   <img src="{{ image }}" alt="︱foto nog niet ingesteld">
