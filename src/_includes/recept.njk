@@ -10,7 +10,7 @@ layout: 'base-recept.njk'
 </div>
 <div>
   <p class="ingredienten">Ingredi&euml;nten</p>
-  {{ content | safe }}
+  {{ body | markdown | safe }}
 </div>
 <figure>
   <img src="{{ image }}" alt="︱foto nog niet ingesteld">
