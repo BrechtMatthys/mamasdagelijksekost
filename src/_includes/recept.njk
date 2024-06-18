@@ -4,16 +4,13 @@ layout: 'base-recept.njk'
 
 <h2>{{ title }} {% for tag in tags -%}{% if tag !== 'post' %}<span>({{ tag }} / {{personen}} personen)</span>{% endif %}{%- endfor %}</h2>
 
-
 <div>
   <p class="bereidingswijze">Bereidingswijze</p>
   {{ bereidingswijze | safe }}
 </div>
 <div>
   <p class="ingredienten">Ingredi&euml;nten</p>
-  <div class="ingredientenlist">
-    {{ content | safe }}
-  </div>
+  {{ content | safe }}
 </div>
 <figure>
   <img src="{{ image }}" alt="︱foto nog niet ingesteld">
