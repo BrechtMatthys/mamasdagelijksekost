@@ -6,11 +6,11 @@ layout: 'base-recept.njk'
 
 <div id="tweede">
   <p class="bereidingswijze">Bereidingswijze</p>
-  {{ bereidingswijze | safe }}
+  {{ bereidingswijze | markdown | safe }}
 </div>
 <div id="eerste">
   <p class="ingredienten">Ingredi&euml;nten</p>
-  {{ content | safe }}
+  {{ body | markdown | safe }}
 </div>
 <figure>
   <img src="{{ image }}" alt="︱foto nog niet ingesteld">
