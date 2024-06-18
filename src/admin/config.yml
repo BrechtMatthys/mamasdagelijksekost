@@ -14,9 +14,9 @@ collections:
       - { label: "Naam van het recept", name: "title", widget: "string" }
       - { label: "Auteur", name: "author", widget: "select", options: ["Mama", "Brecht", "Justine", "Papa"] }
       - { label: "Aantal personen", name: "personen", widget: "number", default: "4" }
-  - name: "tags"
-    label: "tags"
-    default: ["post"]
+      - name: "tags"
+        label: "tags"
+        default: ["post"]
       - { label: "Categorie (laat post staan)", name: "tags", widget: "select", multiple: true, min: 2, max: 2, options: ["post", "veggie", "vegan", "vis", "vlees", "soep", "dessert"], default: ["post"] }
           
       - {label: "Ingredyy", name: "body", required: true, widget: "markdown", default: "- Item 1\n- Item 2\n- Item 3" }
