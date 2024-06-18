@@ -22,7 +22,7 @@ collections:
         widget: "list"
         field: {label: "Ingredientt", name: "ingredientt", widget: "string"}
           
-      - {label: "Body", name: "body", required: false, widget: "markdown"}
+      - {label: "Body", name: "body", required: false, widget: "markdown", hint: "<ul><li>Item 1</li><li>Item 2</li><li>Item 3</li></ul>" }
       - { label: "Additional Content Ingredienten", name: "additional_content", required: false, widget: "markdown" }
 
       - { label: "Afbeelding", name: "image", required: false, widget: "image" }

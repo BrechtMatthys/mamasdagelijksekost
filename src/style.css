@@ -14,8 +14,11 @@ h2{
 	padding-bottom: 35px;
 	text-align: right;
 }
-h2, .ingredienten, .ingredientenlist{
+h2, .ingredienten{
 	padding: 12px 0 0 40px;
+}
+.ingredienten li{
+  
 }
 .bereidingswijze{
   	padding: 12px 0 0 0;
