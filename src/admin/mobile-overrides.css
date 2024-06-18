@@ -1,5 +1,5 @@
 /** Adapted By Mani Kumar (https://manikumar.in/blog/mobile-optimized-decap-netlify-cms/) From Source: https://gist.github.com/searls/7fd2c3223571a58a81006e7da66bd064 */
-@media (max-width: 799px) {
+ @media (max-width: 799px) {
     /* Bring Any Dropdown To Center Of Page */
      [class*=DropdownList]{
          position: fixed;
