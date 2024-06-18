@@ -6,7 +6,7 @@ layout: 'base-recept.njk'
 
 <div>
   <p class="bereidingswijze">Bereidingswijze</p>
-  {{ bereidingswijze | safe }}
+  {{ bereidingswijze | markdown | safe }}
 </div>
 <div>
   <p class="ingredienten">Ingredi&euml;nten</p>
