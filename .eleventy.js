@@ -9,20 +9,13 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('./src/scripts/jquery-3.1.1.js');
   eleventyConfig.addPassthroughCopy('./src/scripts/zoekbalk.js');
 
-  // Add Filter for Date Formatting (if needed)
-  eleventyConfig.addFilter("postDate", (dateObj) => {
-    return DateTime.fromJSDate(dateObj).toLocalString(DateTime.DATE_MED);
-  });
-
-  // Add Transform to Append 'post' Tag
-  eleventyConfig.addTransform("appendPostTag", function(content, outputPath) {
-    if(outputPath && outputPath.endsWith(".html")) {
-      let frontMatter = this.frontMatter;
-      if(frontMatter.tags && !frontMatter.tags.includes("post")) {
-        frontMatter.tags.push("post");
-      }
-    }
-    return content;
+  // Add Transform for Tags
+  eleventyConfig.addCollection("blogPosts", function(collection) {
+    return collection.getFilteredByGlob("src/blog/**/*.md").map(function(item) {
+      // Add "post" tag to every item's tags array
+      item.data.tags = ["post"].concat(item.data.tags);
+      return item;
+    });
   });
 
   return {
@@ -31,4 +24,4 @@ module.exports = function(eleventyConfig) {
       output: "public"
     }
   };
-}
+};
