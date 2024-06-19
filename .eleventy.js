@@ -18,7 +18,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addDataExtension("md", contents => {
     let frontMatter = contents.split("---")[1].trim(); // Extract front matter
     let updatedFrontMatter;
-    
+
     // Add "post" tag if it doesn't exist
     if (!frontMatter.includes("tags:")) {
       updatedFrontMatter = `---\ntags:\n  - post\n${frontMatter}\n---`;
