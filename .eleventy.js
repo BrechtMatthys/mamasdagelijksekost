@@ -14,16 +14,21 @@ module.exports = function(eleventyConfig) {
   //   return DateTime.fromJSDate(dateObj).toLocalString(DateTime.DATE_MED);
   // });
 
-  // Modify data before it's passed to templates
-  eleventyConfig.addCollection("blogPosts", function(collection) {
-    return collection.getFilteredByGlob("src/blog/**/*.md").map(function(item) {
-      if (item.data.tags && !item.data.tags.includes("post")) {
-        item.data.tags.unshift("post"); // Add "post" tag at the beginning
-      } else {
-        item.data.tags = ["post"]; // Ensure "post" tag exists if tags are empty
-      }
-      return item;
-    });
+  // Customize front matter tags
+  eleventyConfig.addDataExtension("md", contents => {
+    let frontMatter = contents.split("---")[1].trim(); // Extract front matter
+    let updatedFrontMatter;
+    
+    // Add "post" tag if it doesn't exist
+    if (!frontMatter.includes("tags:")) {
+      updatedFrontMatter = `---\ntags:\n  - post\n${frontMatter}\n---`;
+    } else if (!frontMatter.includes("- post")) {
+      updatedFrontMatter = frontMatter.replace("tags:", "tags:\n  - post\n");
+    } else {
+      updatedFrontMatter = contents; // No modification needed
+    }
+
+    return `---\n${updatedFrontMatter}\n---\n${contents.split("---").slice(2).join("---").trim()}`;
   });
 
   return {
