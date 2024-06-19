@@ -14,11 +14,9 @@ collections:
       - { label: "Naam van het recept", name: "title", widget: "string" }
       - { label: "Auteur", name: "author", widget: "select", required: true, options: ["Mama", "Brecht", "Justine", "Papa"] }
       - { label: "Aantal personen", name: "personen", widget: "number", default: "4" }
-      # - { label: "Categorie (laat post staan)", name: "tags", widget: "select", multiple: true, min: 2, max: 2, options: ["post", "veggie", "vegan", "vis", "vlees", "soep", "dessert"], default: ["post"] }
-      - { label: "Categorie", name: "tags", widget: "select", multiple: true, options: ["post", "veggie", "vegan", "vis", "vlees", "soep", "dessert"] }
-      
+      - { label: "Categorie (laat post staan)", name: "tags", widget: "select", multiple: true, min: 2, max: 2, options: ["post", "veggie", "vegan", "vis", "vlees", "soep", "dessert"], default: ["post"] }
           
-      - { label: "Ingrediënten", name: "body", required: true, widget: "markdown", default: "- Item 1\n- Item 2\n- Item 3" }
+      - { label: "Ingredi&#235;nten", name: "body", required: true, widget: "markdown", default: "- Item 1\n- Item 2\n- Item 3" }
       - { label: "Bereidingswijze", name: "bereidingswijze", required: false, widget: "markdown" }
 
       - { label: "Afbeelding", name: "image", required: false, widget: "image" }
