@@ -1,4 +1,5 @@
 const { DateTime } = require("luxon");
+const markdownIt = require("markdown-it");
 
 module.exports = function(eleventyConfig) {
 
@@ -14,6 +15,14 @@ module.exports = function(eleventyConfig) {
   // })
 
   // https://github.com/11ty/eleventy/issues/411 alfabetisch
+
+  let markdownLibrary = markdownIt({
+    html: true,
+    breaks: true,
+    linkify: true
+  });
+  eleventyConfig.setLibrary("md", markdownLibrary);
+
 
   return {
     dir: {
