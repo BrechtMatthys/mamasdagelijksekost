@@ -5,7 +5,7 @@ module.exports = function(eleventyConfig) {
 
   // Custom filter to convert newlines to <br> tags
   eleventyConfig.addFilter("nl2p", function(text) {
-    return (text || "").replace(/\n/g, "<br>");
+    return (text || "").replace(/(\r\n|\n|\r)/g, "<br>");
   });
 
 
