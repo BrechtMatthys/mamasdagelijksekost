@@ -6,14 +6,7 @@ layout: 'base-recept.njk'
 
 <div id="tweede">
   <p class="bereidingswijze">Bereidingswijze</p>
-  {%- if bereidingswijze %}
-    {%- set bereidingswijzeArray = bereidingswijze.split('\n') -%}
-    {%- for line in bereidingswijzeArray -%}
-      <p>{{ line }}</p>
-    {%- endfor -%}
-  {%- else %}
-    <p>AI is echt rete achterlijk</p>
-  {%- endif %}
+  <p>{{ bereidingswijze | linebreaks }}</p>
 </div>
 <div id="eerste">
   <p class="ingredienten">Ingredi&euml;nten</p>

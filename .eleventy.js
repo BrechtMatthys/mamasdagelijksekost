@@ -23,9 +23,9 @@ module.exports = function(eleventyConfig) {
     return DateTime.fromJSDate(dateObj).toLocalString(DateTime.DATE_MED);
   });
 
-  // Add a custom 'split' filter to split strings
-  eleventyConfig.addFilter("split", function(value, separator) {
-    return value.split(separator);
+  // Define a custom Nunjucks filter to convert newline characters to HTML line breaks
+  env.addFilter('linebreaks', function(text) {
+    return text.replace(/\n/g, '<br>');
   });
 
   return {
