@@ -6,8 +6,9 @@ layout: 'base-recept.njk'
 
 <div id="tweede">
   <p class="bereidingswijze">Bereidingswijze</p>
-  {%- for line in bereidingswijze | split('') -%}
-  <p>{{ line }}</p>
+  {%- set bereidingswijzeArray = bereidingswijze.split('\n') -%}
+  {%- for line in bereidingswijzeArray -%}
+    <p>{{ line }}</p>
   {%- endfor -%}
 </div>
 <div id="eerste">
