@@ -1,9 +1,14 @@
 const { DateTime } = require("luxon");
 const markdownIt = require("markdown-it");
-const nunjucks = require('nunjucks');
-const env = nunjucks.configure();
 
 module.exports = function(eleventyConfig) {
+
+  // Custom filter to convert newlines to <p> tags
+  eleventyConfig.addFilter("nl2p", function(text) {
+    const paragraphs = text.split("\n").map(line => `<p>${line}</p>`);
+    return paragraphs.join("");
+  });
+
   // Add Passthrough Copies
   eleventyConfig.addPassthroughCopy('./src/style.css');
   eleventyConfig.addPassthroughCopy('./src/reset.css');
@@ -23,11 +28,6 @@ module.exports = function(eleventyConfig) {
   // Add a Date Filter (if needed)
   eleventyConfig.addFilter("postDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj).toLocalString(DateTime.DATE_MED);
-  });
-
-  // Define a custom Nunjucks filter to convert newline characters to HTML line breaks
-  env.addFilter('linebreaks', function(text) {
-    return text.replace(/\n/g, '<br>');
   });
 
   return {
