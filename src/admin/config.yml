@@ -19,9 +19,9 @@ collections:
       - label: "Bereidingswijze"
         name: "bereidingswijze"
         required: false
-        widget: "../_includes/customMarkdownEditor" 
+        widget: "customMarkdownEditor" 
       - { label: "Afbeelding", name: "image", required: false, widget: "image" }
       - { label: "Datum", name: "date", widget: "datetime" }
 
 editor:
-  preview: false
+  preview: true
