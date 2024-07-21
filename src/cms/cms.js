@@ -1,5 +1,5 @@
-import CMS from "netlify-cms";
+// src/cms/cms.js
+import CMS from 'netlify-cms';
+import { CustomMarkdownEditorControl, CustomMarkdownEditorPreview } from '../_includes/customMarkdownEditor';
 
-import { SlidesControl, SlidesPreview } from "./Slides";
-
-CMS.registerWidget("slides", SlidesControl, SlidesPreview);
+CMS.registerWidget('customMarkdownEditor', CustomMarkdownEditorControl, CustomMarkdownEditorPreview);
