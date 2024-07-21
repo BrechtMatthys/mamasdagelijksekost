@@ -23,6 +23,11 @@ module.exports = function(eleventyConfig) {
     return DateTime.fromJSDate(dateObj).toLocalString(DateTime.DATE_MED);
   });
 
+  // Add a custom 'split' filter to split strings
+  eleventyConfig.addFilter("split", function(value, separator) {
+    return value.split(separator);
+  });
+
   return {
     dir: {
       input: "src",
