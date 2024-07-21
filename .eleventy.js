@@ -3,11 +3,11 @@ const markdownIt = require("markdown-it");
 
 module.exports = function(eleventyConfig) {
 
-  // Custom filter to convert newlines to <p> tags
+  // Custom filter to convert newlines to <br> tags
   eleventyConfig.addFilter("nl2p", function(text) {
-    const paragraphs = text.split("\n").map(line => `<p>${line}</p>`);
-    return paragraphs.join("");
+    return (text || "").replace(/\n/g, "<br>");
   });
+
 
   // Add Passthrough Copies
   eleventyConfig.addPassthroughCopy('./src/style.css');
