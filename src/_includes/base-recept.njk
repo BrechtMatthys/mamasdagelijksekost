@@ -1,45 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  {% include 'head.njk' %}
-</head>
+  <head>
+    {% include 'head.njk' %}
+  </head>
 
-<body>
-  <header>
-    <p id="terug"><a href="javascript:history.back()">Terug</a></p>
-    {% include 'header.njk' %}
-    <p id="nieuw"><a href="../../admin" target="_blank">Nieuw recept</a></p>
-  </header>
-  <main>
-    <h2>{{ title }} {% for tag in tags -%}{% if tag !== 'post' %}<span>({{ tag }} / {{personen}} personen)</span>{% endif %}{%- endfor %}</h2>
+  <body>
+    <header>
+      <p id="terug"><a href="javascript:history.back()">Terug</a></p>
+      {% include 'header.njk' %}
+      <p id="nieuw"><a href="../../admin" target="_blank">Nieuw recept</a></p>
+    </header>
+    <main>
+      {{ content | safe }}
+    </main>
+    {# <footer>
+      {% include 'footer.njk' %}
+    </footer> #}
+  </body>
 
-    <div id="tweede">
-      <p class="bereidingswijze">Bereidingswijze</p>
-      {{ bereidingswijze | markdown | safe }}
-    </div>
-    <div id="eerste">
-      <p class="ingredienten">Ingredi&euml;nten</p>
-      {{ body | markdown | safe }}
-    </div>
-    <figure>
-      <img src="{{ image }}" alt="︱foto nog niet ingesteld">
-      <figcaption>
-        {{ imageAlt }}
-      </figcaption>
-    </figure>
-  </main>
   <script>
-    if (window.netlifyIdentity) {
-      window.netlifyIdentity.on("init", user => {
-        if (!user) {
-          window.netlifyIdentity.on("login", () => {
-            document.location.href = "/admin/";
-          });
-        }
-      });
-    }
-  </script>
-</body>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
 
 </html>
