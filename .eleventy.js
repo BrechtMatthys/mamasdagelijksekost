@@ -1,5 +1,7 @@
 const { DateTime } = require("luxon");
 const markdownIt = require("markdown-it");
+const nunjucks = require('nunjucks');
+const env = nunjucks.configure();
 
 module.exports = function(eleventyConfig) {
   // Add Passthrough Copies
