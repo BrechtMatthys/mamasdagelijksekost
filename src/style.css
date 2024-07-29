@@ -175,6 +175,10 @@ main div:nth-child(2){
   grid-column-gap: 50px;
 	grid-row-gap: 35px;
 }
+#inhoudstafel{
+  list-style-type: none;
+}
+
 #inhoudstafel .snippet-foto-div {
   background: floralwhite;
   width: 100%;
