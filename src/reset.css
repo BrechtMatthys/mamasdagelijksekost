@@ -31,10 +31,10 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-/*ol, ul {
+ol, ul {
 	list-style: none;
 }
-blockquote, q {
+/*blockquote, q {
 	quotes: none;
 }
 blockquote:before, blockquote:after,

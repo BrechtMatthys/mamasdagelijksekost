@@ -21,10 +21,10 @@ h2, .ingredienten{
 	list-style: disc;
 }
 .ingredienten ul ul{
-  margin-left: 15px;
+  margin-block-start: 15px;
 }
 .ingredienten ul ul ul{
-  margin-left: 30px;
+  margin-block-start: 15px;
 }
 .bereidingswijze{
   	padding: 12px 0 0 0;
