@@ -35,7 +35,7 @@
   document.addEventListener("DOMContentLoaded", function() {
     const editButton = document.getElementById("editButton");
     const blogUrl = window.location.pathname.split("/")[2];
-    const adminUrl = `admin/#/collections/blog/entries/${blogUrl}`;
+    const adminUrl = `/admin/#/collections/blog/entries/${blogUrl}`;
 
     editButton.href = adminUrl;
   });
