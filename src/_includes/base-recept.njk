@@ -10,6 +10,7 @@
       <p id="terug"><a href="javascript:history.back()">Terug</a></p>
       {% include 'header.njk' %}
       <p id="nieuw"><a href="../../admin" target="_blank">Nieuw recept</a></p>
+      <a href="#" id="editButton"><button class="btn">Edit this post</button></a>
     </header>
     <main>
       {{ content | safe }}
@@ -29,6 +30,15 @@
       }
     });
   }
+</script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const editButton = document.getElementById("editButton");
+    const blogTitle = document.title;
+    const adminUrl = `admin/#/collections/blog/entries/${blogTitle}`;
+
+    editButton.href = adminUrl;
+  });
 </script>
 
 </html>
