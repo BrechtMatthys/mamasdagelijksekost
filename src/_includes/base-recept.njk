@@ -34,11 +34,10 @@
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     const editButton = document.getElementById("editButton");
-    const blogTitle = document.title;
-    const adminUrl = `admin/#/collections/blog/entries/${blogTitle}`;
+    const blogUrl = window.location.pathname.split("/")[1];
+    const adminUrl = `admin/#/collections/blog/entries/${blogUrl}`;
 
     editButton.href = adminUrl;
   });
 </script>
-
 </html>
