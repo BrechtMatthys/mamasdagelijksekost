@@ -12,10 +12,12 @@ date: 2024-07-29T15:49:30.201Z
   * 6﻿0 gr pijnboompitten
   * 8﻿0 gr parmezaanse kaas
   * 1﻿ teentje look
-  * 6﻿0 gr of 2/3e basilicum
+  * 6﻿0 gr of 2/3e basilicum plantje
   * h﻿alve citroen
   * p﻿eper en zout
-* 300 gr spaghetti
+* 300 gr pasta 
+
+  * p﻿enne rigate / spaghetti / linguine
 * 400 gr kipfilet pp (in stukjes)
 * 250 gr kerstomaatjes
 * 60 gr pijnboompitten ( geroosterd )
