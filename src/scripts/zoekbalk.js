@@ -1,21 +1,21 @@
 // Zoekbalk
 function myFunction() {
   // Declare variables
-  const input = document.getElementById('myInput');
-  const filter = input.value.toUpperCase();
-  const ul = document.getElementById("inhoudstafel");
-  const li = Array.from(ul.getElementsByTagName('li'));
-  
+  var input, filter, ul, li, a, i, txtValue;
+  input = document.getElementById('myInput');
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("inhoudstafel");
+  li = ul.getElementsByTagName('a');
   // Loop through all list items, and hide those who don't match the search query
-  li.forEach(item => {
-    const a = item.getElementsByTagName("a")[0];
-    const txtValue = a.textContent || a.innerText;
+  for (i = 0; i < li.length; i++) {
+    txtValue = li[i].textContent || li[i].innerText;
     if (txtValue.toUpperCase().indexOf(filter) > -1) {
-      item.style.display = "";
-    } else {
-      item.style.display = "none";
+      li[i].parentElement.style.display = "";
     }
-  });
+    else {
+      li[i].parentElement.style.display = "none";
+    }
+  }
 }
 // control f
 $(document).ready(function(){
