@@ -14,13 +14,13 @@ h2{
 	padding-bottom: 35px;
 	text-align: right;
 }
-h2, .ingredienten{
+h2, .bereidingswijze{
 	padding: 12px 0 0 40px;
 }
 .ingredienten ul li{
 
 }
-.bereidingswijze{
+.ingredienten{
   	padding: 12px 0 0 0;
 }
 h2 span{
@@ -105,10 +105,10 @@ main #tweede{
   grid-column: 2;
 }
 main #eerste ul ul{
-  padding-inline-start: 15px;
+  padding-inline-start: 30px;
 }
 main #eerste ul ul ul{
-  padding-inline-start: 30px;
+  padding-inline-start: 60px;
 }
 img{
 	width: 100%;
