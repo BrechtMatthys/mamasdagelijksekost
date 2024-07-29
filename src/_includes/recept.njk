@@ -5,11 +5,11 @@ layout: 'base-recept.njk'
 
 <h2>{{ title }} {% for tag in tags -%}{% if tag !== 'post' %}<span>({{ tag }} / {{personen}} personen)</span>{% endif %}{%- endfor %}</h2>
 
-<div id="tweede">
+<div id="bereidingswijze">
   <p class="bold">Bereidingswijze</p>
   {{ bereidingswijze | nl2p | safe }}
 </div>
-<div id="eerste">
+<div id="ingredienten">
   <p class="bold">Ingredi&euml;nten</p>
   {{ content | safe }}
 </div>
