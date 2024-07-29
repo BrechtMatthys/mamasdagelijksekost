@@ -15,9 +15,6 @@ date: 2024-07-29T15:49:30.201Z
   * 6﻿0 gr of 2/3e basilicum
   * h﻿alve citroen
   * p﻿eper en zout
-
-pijnboompitten60 gfijne olijfolie1.5 dl
-
 * 300 gr spaghetti
 * 400 gr kipfilet pp (in stukjes)
 * 250 gr kerstomaatjes
