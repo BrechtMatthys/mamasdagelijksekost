@@ -14,16 +14,16 @@ h2{
 	padding-bottom: 35px;
 	text-align: right;
 }
-h2, .ingredienten{
+h2, #ingredienten{
 	padding: 12px 0 0 40px;
 }
-.ingredienten ol, .ingredienten ul{
+#ingredienten ol, #ingredienten ul{
 	list-style: disc;
 }
-.ingredienten ul ul{
+#ingredienten ul ul{
   margin-block-start: 15px;
 }
-.ingredienten ul ul ul{
+#ingredienten ul ul ul{
   margin-block-start: 15px;
 }
 .bereidingswijze{
@@ -35,7 +35,7 @@ h2 span{
 main div:nth-child(3) p:nth-child(2){
 	padding-top: 12px;
 }
-.ingredienten, .bereidingswijze{
+.bold{
 	font-weight: bold;
 }
 h3{
@@ -102,11 +102,11 @@ main h2{
 	padding-bottom: 35px;
   line-height: 40px;
 }
-main #eerste{
+main #ingredienten{
   grid-row: 2;
   grid-column: 1;
 }
-main #tweede{
+main #bereidingswijze{
   grid-row: 2;
   grid-column: 2;
 }
