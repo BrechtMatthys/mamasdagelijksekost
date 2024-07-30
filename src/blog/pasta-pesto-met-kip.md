@@ -5,6 +5,7 @@ personen: 4
 tags:
   - post
   - vlees
+image: /assets/blog/1000029811.jpg
 date: 2024-07-29T15:49:30.201Z
 ---
 * Pesto
