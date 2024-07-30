@@ -31,6 +31,7 @@ main div:nth-child(3) p:nth-child(2){
 }
 .ingredienten, .bereidingswijze{
 	font-weight: bold;
+  margin-bottom: 6px;
 }
 h3{
 	font-size: 1.4em;
