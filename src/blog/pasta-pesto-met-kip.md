@@ -24,7 +24,7 @@ bereidingswijze: >-
 
 
   Laat de pestosaus een paar minuutjes zachtjes pruttelen. Voeg dan de gekookte pasta toe en schep er doorheen. Halveer de tomaatjes en roer ook door de pasta pesto en verwarm nog een minuutje mee. Serveer de pasta pesto in de pan of op een bord met een handje rucola en de geroosterde pijnboompitten.
-image: /assets/blog/1000015447.jpg
+image: /assets/blog/1000029811.jpg
 date: 2024-07-29T15:49:30.201Z
 ---
 * Pesto
