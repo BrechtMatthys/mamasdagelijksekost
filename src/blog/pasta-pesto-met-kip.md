@@ -37,6 +37,7 @@ date: 2024-07-29T15:49:30.201Z
   * 6﻿0 gr of 2/3e basilicum plantje
   * h﻿alve citroen
   * p﻿eper en zout
+  * 1﻿ / 2 scheuten olijfolie
 * 300 gr pasta 
 
   * p﻿enne rigate / spaghetti / linguine
