@@ -18,7 +18,7 @@ date: 2024-07-29T15:49:30.201Z
 * 300 gr pasta 
 
   * p﻿enne rigate / spaghetti / linguine
-* 400 gr (in stukjes)
+* 400 gr kip (in stukjes)
 * 250 gr kerstomaatjes
 * 60 gr pijnboompitten ( geroosterd )
 * R﻿ucola
