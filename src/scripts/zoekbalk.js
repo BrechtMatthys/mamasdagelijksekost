@@ -1,20 +1,21 @@
 function myFunction() {
   // Declare variables
-  const input = document.getElementById('myInput');
-  const filter = input.value.toUpperCase();
-  const ul = document.getElementById("inhoudstafel");
-  const li = ul.querySelectorAll('li');
-
+  var input = document.getElementById('myInput');
+  var filter = input.value.toUpperCase();
+  var ul = document.getElementById("inhoudstafel");
+  var li = ul.getElementsByTagName('li');
+  
   // Loop through all list items and hide those who don't match the search query
-  li.forEach((element, index) => {
-    const txtValue = element.textContent || element.innerText;
+  for (var i = 0; i < li.length; i++) {
+    var txtValue = li[i].textContent || li[i].innerText;
     if (txtValue.toUpperCase().indexOf(filter) > -1) {
-      element.style.display = "";
-      ul.insertBefore(element, ul.firstChild);
+      // Move the matching element to the beginning of the list
+      ul.insertBefore(li[i], ul.firstChild);
     } else {
-      element.style.display = "none";
+      // Hide the non-matching element
+      li[i].style.display = "none";
     }
-  });
+  }
 }
 
 // control f
