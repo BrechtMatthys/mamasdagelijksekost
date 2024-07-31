@@ -16,7 +16,7 @@ collections:
       - { label: "Aantal personen", name: "personen", widget: "number", default: "4" }
       - { label: "Categorie (laat post staan)", name: "tags", widget: "select", multiple: true, min: 2, max: 2, options: ["post", "veggie", "vegan", "vis", "vlees", "soep", "dessert"], default: ["post"] }
           
-      - { label: "Ingredi&#235;nten", name: "body", required: true, widget: "markdown", default: "- 400 gr pasta \n- 1 teentje look \n- peper en zout" }
+      - { label: "Ingrediënten", name: "body", required: true, widget: "markdown", default: "- " }
       - { label: "Bereidingswijze", name: "bereidingswijze", required: false, widget: "text", multiline: true }
 
       - { label: "Afbeelding", name: "image", required: false, widget: "image" }
