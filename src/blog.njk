@@ -6,8 +6,8 @@ layout : 'base-filter.njk'
 <h3>{{ title }}</h3>
 <ul class="container" id="inhoudstafel">
 
-  {%- for post in collections.post -%}
-    {% include 'recent-recept-snippet.njk' %}
+  {%- for post in collections.post | sort(attribute='title') -%}
+      {% include 'recent-recept-snippet.njk' %}
   {%- endfor -%}
 
 </ul>
