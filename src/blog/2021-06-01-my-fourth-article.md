@@ -24,8 +24,8 @@ additional_content: >-
 
 
   Feugiat in ante metus dictum at. Nunc sed velit dignissim sodales. Odio aenean sed adipiscing diam donec adipiscing. Diam quam nulla porttitor massa id neque aliquam. Cras adipiscing enim eu turpis egestas pretium aenean pharetra. Elementum curabitur vitae nunc sed. Pretium fusce id velit ut tortor pretium viverra suspendisse potenti. Nisi vitae suscipit tellus mauris a. Id aliquet lectus proin nibh. Tortor posuere ac ut consequat semper viverra. Nunc consequat interdum varius sit. Dictum fusce ut placerat orci. Nibh praesent tristique magna sit amet purus gravida quis. Donec ultrices tincidunt arcu non sodales neque sodales ut.
-title: VEGAN
-author: Kevin Powell
+title: Vegan Placeholder
+author: Brecht
 personen: 4
 tags:
   - post
@@ -59,5 +59,4 @@ description: Lorem ipsum dolor sit amet consectetur adipisicing elit.
   delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio
   aliquam?
 ---
-* t﻿est 2
-* i﻿ngredient
+* geen dierlijke producten
