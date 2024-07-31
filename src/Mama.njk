@@ -1,0 +1,13 @@
+---
+title : Recepten van Mama
+layout : 'base-filter.njk'
+---
+
+<h3>{{ author.Mama }}gerechten</h3><!--niet zeker of het werkt-->
+<ul class="container" id="inhoudstafel">
+
+  {%- for post in collections.author.Mama -%}
+    {% include 'recent-recent-recept-snippet.njk' %}
+  {%- endfor -%}
+
+</ul>
