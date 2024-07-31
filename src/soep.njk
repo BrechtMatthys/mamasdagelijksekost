@@ -6,8 +6,13 @@ layout : 'base-filter.njk'
 <h3>{{ title }}</h3>
 <ul class="container" id="inhoudstafel">
 
-  {%- for post in collections.soep -%}
+  {% set sorted_posts = collections.soep | sortByTitle %}
+  {%- for post in sorted_posts -%}
     {% include 'recent-recept-snippet.njk' %}
   {%- endfor -%}
+
+  {# {%- for post in collections.soep -%}
+    {% include 'recent-recept-snippet.njk' %}
+  {%- endfor -%} #}
 
 </ul>

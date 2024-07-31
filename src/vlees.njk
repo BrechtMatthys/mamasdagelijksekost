@@ -6,8 +6,13 @@ layout : 'base-filter.njk'
 <h3>{{ title }}gerechten</h3>
 <ul class="container" id="inhoudstafel">
 
-  {%- for post in collections.vlees -%}
+  {% set sorted_posts = collections.vlees | sortByTitle %}
+  {%- for post in sorted_posts -%}
     {% include 'recent-recept-snippet.njk' %}
   {%- endfor -%}
+
+  {# {%- for post in collections.vlees -%}
+    {% include 'recent-recept-snippet.njk' %}
+  {%- endfor -%} #}
 
 </ul>

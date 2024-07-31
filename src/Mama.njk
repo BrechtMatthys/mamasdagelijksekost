@@ -6,10 +6,8 @@ layout : 'base-filter.njk'
 <h3>Recepten van Marianne</h3>
 <ul class="container" id="inhoudstafel">
 
-  {%- for post in collections.post -%}
-  {% if post.data.author == "mama" %}
+  {%- for post in collections.author.mama -%}
     {% include 'recent-recept-snippet.njk' %}
-  {% endif %}
-{%- endfor -%}
+  {%- endfor -%}
 
 </ul>

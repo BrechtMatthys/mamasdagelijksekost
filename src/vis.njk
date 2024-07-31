@@ -6,8 +6,13 @@ layout : 'base-filter.njk'
 <h3>{{ title }}gerechten</h3>
 <ul class="container" id="inhoudstafel">
 
-  {%- for post in collections.vis -%}
+  {% set sorted_posts = collections.vis | sortByTitle %}
+  {%- for post in sorted_posts -%}
     {% include 'recent-recept-snippet.njk' %}
   {%- endfor -%}
+
+  {# {%- for post in collections.vis -%}
+    {% include 'recent-recept-snippet.njk' %}
+  {%- endfor -%} #}
 
 </ul>
