@@ -39,7 +39,7 @@ ingredienten:
   ingredient7: 1 blik gepelde tomaten
   ingredient8: 1 rode paprika
   ingredient9: 1 bouillonblokje
-image: /assets/blog/article-1.jpg
+image: /assets/blog/1000009419.jpg
 description: Lorem ipsum dolor sit amet consectetur adipisicing elit.
   Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae
   delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio
