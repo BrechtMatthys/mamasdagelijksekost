@@ -1,5 +1,6 @@
 const { DateTime } = require("luxon");
 const markdownIt = require("markdown-it");
+const sortBy = require('lodash/sortBy');
 
 module.exports = function(eleventyConfig) {
 
@@ -28,6 +29,11 @@ module.exports = function(eleventyConfig) {
   // Add a Date Filter (if needed)
   eleventyConfig.addFilter("postDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj).toLocalString(DateTime.DATE_MED);
+  });
+
+  
+  eleventyConfig.addNunjucksFilter("sortByTitle", function(posts) {
+    return sortBy(posts, [post => post.data.title.toLowerCase()]);
   });
 
   return {
