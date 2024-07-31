@@ -1,13 +1,13 @@
 ---
-title : Recepten van Mama
+title : Recepten van Marianne
 layout : 'base-filter.njk'
 ---
 
-<h3>{{ author.Mama }}gerechten</h3><!--niet zeker of het werkt-->
+<h3>Recepten van Marianne</h3>
 <ul class="container" id="inhoudstafel">
 
   {%- for post in collections.author.Mama -%}
-    {% include 'recent-recent-recept-snippet.njk' %}
+    {% include 'recent-recept-snippet.njk' %}
   {%- endfor -%}
 
 </ul>
