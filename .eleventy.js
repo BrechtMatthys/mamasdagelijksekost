@@ -2,25 +2,6 @@ const { DateTime } = require("luxon");
 const markdownIt = require("markdown-it");
 const sortBy = require('lodash/sortBy');
 
-const env = new nunjucks.Environment();
-env.addFilter('filterBy', function(value, key, qualifier, not) {
-  if (typeof value !== 'object') {
-    return value;
-  }
-  return Object.keys(value).reduce((result, k) => {
-    if (k !== key) {
-      result[k] = value[k];
-    } else if (typeof value[k] === 'object') {
-      result[k] = filterBy(value[k], qualifier, not);
-    } else if (not) {
-      result[k] = !qualifier(value[k]);
-    } else {
-      result[k] = qualifier(value[k]);
-    }
-    return result;
-  }, {});
-});
-
 module.exports = function(eleventyConfig) {
 
   // Custom filter to convert newlines to <br> tags
@@ -55,7 +36,6 @@ module.exports = function(eleventyConfig) {
     return sortBy(posts, [post => post.data.title.toLowerCase()]);
   });
 
-  
   return {
     dir: {
       input: "src",
