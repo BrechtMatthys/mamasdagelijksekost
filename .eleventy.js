@@ -7,10 +7,6 @@ const sortBy = require('lodash/sortBy');
 const nunjucks = require('nunjucks');
 const env = new nunjucks.Environment();
 
-// Define the filter
-env.addFilter('filterByTag', (posts, tag) => {
-    return posts.filter(post => post.tags.includes(tag));
-});
 
 module.exports = function(eleventyConfig) {
 
@@ -47,6 +43,11 @@ module.exports = function(eleventyConfig) {
   });
 
   
+  // Define the filter
+  env.addFilter('filterByTag', (posts, tag) => {
+    return posts.filter(post => post.tags.includes(tag));
+  });
+
   return {
     dir: {
       input: "src",
