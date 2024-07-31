@@ -2,11 +2,24 @@ const { DateTime } = require("luxon");
 const markdownIt = require("markdown-it");
 const sortBy = require('lodash/sortBy');
 
-// Register the filter in your Nunjucks environment
-// (assuming you're using Nunjucks in a Node.js environment)
-const nunjucks = require('nunjucks');
 const env = new nunjucks.Environment();
-
+env.addFilter('filterBy', function(value, key, qualifier, not) {
+  if (typeof value !== 'object') {
+    return value;
+  }
+  return Object.keys(value).reduce((result, k) => {
+    if (k !== key) {
+      result[k] = value[k];
+    } else if (typeof value[k] === 'object') {
+      result[k] = filterBy(value[k], qualifier, not);
+    } else if (not) {
+      result[k] = !qualifier(value[k]);
+    } else {
+      result[k] = qualifier(value[k]);
+    }
+    return result;
+  }, {});
+});
 
 module.exports = function(eleventyConfig) {
 
@@ -43,11 +56,6 @@ module.exports = function(eleventyConfig) {
   });
 
   
-  // Define the filter
-  env.addFilter('filterByTag', (posts, tag) => {
-    return posts.filter(post => post.tags.includes(tag));
-  });
-
   return {
     dir: {
       input: "src",
