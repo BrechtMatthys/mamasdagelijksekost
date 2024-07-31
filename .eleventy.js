@@ -31,7 +31,7 @@ module.exports = function(eleventyConfig) {
     return DateTime.fromJSDate(dateObj).toLocalString(DateTime.DATE_MED);
   });
 
-  
+  // sort alphabetically
   eleventyConfig.addNunjucksFilter("sortByTitle", function(posts) {
     return sortBy(posts, [post => post.data.title.toLowerCase()]);
   });
