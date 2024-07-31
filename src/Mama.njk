@@ -6,13 +6,10 @@ layout : 'base-filter.njk'
 <h3>Recepten van Marianne</h3>
 <ul class="container" id="inhoudstafel">
 
-  {%- for post in collections.mama -%}
-    <script>
-      // This script will execute for each post in the collection
-      console.log("Processing post:", {{ post.title }});
-      // Add your desired logic here
-    </script>
+  {%- for post in collections.post -%}
+  {% if post.data.author == "mama" %}
     {% include 'recent-recept-snippet.njk' %}
-  {%- endfor -%}
+  {% endif %}
+{%- endfor -%}
 
 </ul>
