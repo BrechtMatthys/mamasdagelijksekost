@@ -1,5 +1,5 @@
 ---
-title: Vegetarische groentelasagne met prei en courgette
+title: Groentelasagne met prei en courgette
 author: Mama
 personen: "4"
 tags:
