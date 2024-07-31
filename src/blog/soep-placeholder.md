@@ -1,6 +1,6 @@
 ---
-title: Soep Placeholder
-author: Brecht
+title: Komkommersoep
+author: Mama
 personen: "4"
 tags:
   - post
