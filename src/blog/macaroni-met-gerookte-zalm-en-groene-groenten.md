@@ -1,6 +1,6 @@
 ---
 title: Macaroni met gerookte zalm en groene groenten
-author: mama
+author: Mama
 personen: "4"
 tags:
   - post

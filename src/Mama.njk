@@ -7,6 +7,11 @@ layout : 'base-filter.njk'
 <ul class="container" id="inhoudstafel">
 
   {%- for post in collections.mama -%}
+    <script>
+      // This script will execute for each post in the collection
+      console.log("Processing post:", {{ post.title }});
+      // Add your desired logic here
+    </script>
     {% include 'recent-recept-snippet.njk' %}
   {%- endfor -%}
 
