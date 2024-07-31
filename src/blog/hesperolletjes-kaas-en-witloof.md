@@ -15,6 +15,7 @@ bereidingswijze: >-
   De hesperolletjes goed laten uitlekken en dan de hesp errond rollen. Schik in een ovenschotel. Overgiet met de kaassaus. Strooi eventueel wat paneermeel over en enkele klontjes boter.
 
   Plaats in de voorverwarmde oven (180°) gedurende 25 min. Gratineer indien gewenst.
+image: /assets/blog/20231009_185234.jpg
 date: 2024-07-31T12:09:32.563Z
 ---
 * 8 witloofstronken
