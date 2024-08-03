@@ -2,6 +2,16 @@ const { DateTime } = require("luxon");
 const markdownIt = require("markdown-it");
 const sortBy = require('lodash/sortBy');
 
+// Register the filter in your Nunjucks environment
+// (assuming you're using Nunjucks in a Node.js environment)
+const nunjucks = require('nunjucks');
+const env = new nunjucks.Environment();
+
+// Define the filter
+env.addFilter('filterByTag', (posts, tag) => {
+    return posts.filter(post => post.tags.includes(tag));
+});
+
 module.exports = function(eleventyConfig) {
 
   // Custom filter to convert newlines to <br> tags
@@ -36,6 +46,7 @@ module.exports = function(eleventyConfig) {
     return sortBy(posts, [post => post.data.title.toLowerCase()]);
   });
 
+  
   return {
     dir: {
       input: "src",
