@@ -5,7 +5,7 @@ personen: "4"
 tags:
   - post
   - vis
-bereidingswijze: >-
+bereidingswijze: >
   Broccoli gaarkoken in licht gezouten water evenals de tagliatelle. Ondertussen
   ui fijnsnijden en stoven in een weinig olie. Wijn toevoegen en even laten
   doorkoken. Room toevoegen en op smaak brengen met peper en basilicum.
