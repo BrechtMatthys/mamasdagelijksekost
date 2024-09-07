@@ -15,6 +15,7 @@ bereidingswijze: >-
 
 
   Tagliatelle en broccoli over de (diepe) borden verdelen en saus overgieten. Versieren met kaas.
+image: /assets/blog/1000031944.jpg
 date: 2024-07-31T11:59:21.592Z
 ---
 * 500 gr tagliatelle
