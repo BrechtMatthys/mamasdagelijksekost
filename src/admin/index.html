@@ -65,6 +65,10 @@
   .Pane, .vertical, .Pane1{
       flex: 1 0 auto !important;
       width: 100% !important;
-    }
+  }
+  /*inputfield writing bug*/
+  [data-slate-editor] { 
+    -webkit-user-modify: read-write !important; 
+  }
 </style>
 </html>
