@@ -18,7 +18,7 @@ bereidingswijze: >-
 image: /assets/blog/1000031944.jpg
 date: 2024-07-31T11:59:21.592Z
 ---
-* 500 gr tagliatelle
+* 400 gr tagliatelle
 * anderhalve broccoli
 * 450 gr gerookte zalm
 * 1 ui
